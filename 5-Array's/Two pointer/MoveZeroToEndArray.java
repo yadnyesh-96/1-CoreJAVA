@@ -12,11 +12,22 @@ public class MoveZeroToEndArray{
 	
 	int a[]=new int[]{1,0,7,8,2,0};
 	
-	for(int i=0; i<a.length; i++){
+	int i=0;
+	
+	for(int j=0; j<a.length; j++){
 		
-		if(a[i]==0){
-			System.out.println("Zero found");
+		if(a[j] != 0){
+			a[i]=a[j];
+			i++;
 		}
 	}
+	
+	while(i<a.length){
+	a[i]=0;
+		i++;
+		
+	}
+	
+	System.out.println(Arrays.toString(a));
 	}
 }
