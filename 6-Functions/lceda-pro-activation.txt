@@ -1,0 +1,8 @@
+{
+    "username": "yadnynesh",
+    "customer_code": "10666178A",
+    "email": "yadnyneshdhangar@gmail.com",
+    "phone": "",
+    "company": "",
+    "license": "dXNlcm5hbWV8Y3VzdG9tZXJfY29kZXxlbWFpbHxwaG9uZXxjb21wYW55,cTb+nDV/YHOEIP3Tt6K8efyyCS4D1E6KWa6cObel4WLIU6xX4CIEyBal88LflxorQosAhVQmdwFgPIPo9ICOg2jpEQAvxQluCuMmHtPqwLJtZIM5n7tRBMfzhB2YxIJu8VyA21ifjaLepKz40rVERgTosD70VBnUpR31kw2HIVM="
+}
