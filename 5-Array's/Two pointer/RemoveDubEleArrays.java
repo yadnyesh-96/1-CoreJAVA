@@ -10,7 +10,7 @@ public class RemoveDubEleArrays{
 
 	public static void main(String x[]){
 	Scanner sc=new Scanner(System.in);
-	int a[]=new int[]{1,1,2,2,5,8,8,9};
+	int a[]=new int[]{1,1,2,2,2,5,8,8,9};
 	
 	// int b= Arrays.sort(a);
 	int i=0;

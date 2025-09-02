@@ -57,12 +57,14 @@ Expected Output :
  The given array is : 1 9 6 4 5
  The inversions are: (9, 6) (9, 4) (9, 5) (6, 4) (6, 5)
  The number of inversion can be formed from the array is: 5
+ 
 Q9. Write a program in java to count all distinct pairs for a specific difference
 Expected Output:
  The given array is:
  5 2 3 7 6 4 9 8
  The distinct pairs for difference 5 are: [7, 2] [8, 3] [9, 4]
  Number of distinct pairs for difference 5 are: 3
+ 
 Q10. Write a program in java to find the maximum repeating number in a given array.
 The array range is [0..n-1] and the elements are in the range [0..k-1] and k<=n..
  Expected Output:

@@ -12,11 +12,15 @@ public class EightFabaonacciSeries{
 		for(int i=1; i<=num; i++){
 			
 			
+			sum=i;
+			int temp=i+sum;
+			System.out.println(temp);
+			/*
 			System.out.printf("%d \t",a);
 			sum=a+b;
 			a=b;
 			b=sum;
-			
+			*/
 		}
 	}
 
