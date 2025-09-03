@@ -20,6 +20,6 @@ public class RevArray{
 		a[i]=temp;
 		i--;
 	}
-	System.out.println(Arrays.toString(a));
+	for(int v:a){System.out.println("a["+v+"]");}
 	}
 }
