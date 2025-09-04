@@ -23,7 +23,9 @@ public class MaxSumSatArray{
 	for(int i=k; i<a.length; i++){
 		
  		sum+=a[i]-a[i-k];    // sum(8)+1-2=7 ==> (7)+3-1=9 
-		System.out.println("a:="+a[i]+" / "+a[i-k]);
+
+		
+// System.out.println("a:="+a[i-3]+"->"+a[i-2]+"-->"+a[i-k+1]+"="+sum);
 		if(sum>max){  
 			max=sum;
 			flag=true;
