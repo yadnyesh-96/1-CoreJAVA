@@ -11,14 +11,17 @@ public class chekNegNum{
 		int a[]=new int[]{-8, 2, 3, -6, 10};
 		int k=2;
 		int sum=0;
+		int min=0;
 		boolean flag=false;
 		for(int m=0; m<k; m++){
 			if(sum<=a[m]){
-			System.out.println(a[m]);
-				
+			min=sum;
 			}
 		}
 		
+		for(int i=k; i<a.length; i++){
+			
+		}
 	}
 }
 

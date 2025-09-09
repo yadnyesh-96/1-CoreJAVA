@@ -3,38 +3,37 @@
 import java.util.*;
 
 public class SortcolArray{
-	public static void main(String x[]){
+	public static void main(String y[]){
 		Scanner sc=new Scanner(System.in);
 		int a[][]=new int[][]{
-							{3,2,1},
-							{6,5,4},
-							{9,8,7}
+							{9,4,3},
+							{8,7,5},
+							{6,2,1}
 					};
-					
-					/*
-		int temp=0;
-		System.out.println("Enter the value of array:");
-		for(int i=0; i<a.length; i++){
-			for(int j=0; j<a[i].length; j++){
-				a[i][j]=sc.nextInt();
-			}
-		}
+							
 		
-		*/
-		
-		int temp=0;
 	
 		for(int i=0; i<a.length; i++){
 			for(int j=0; j<a[i].length-1; j++){
-				if(a[i][j]>a[i][j+1]){
-					temp=a[i][j];
-					a[i][j]=a[i][j+1];
-					a[i][j]=temp;
+				for(int k=j+1;k<a[i].length;k++)
+				{
+				if(a[j][i]>a[i][k]){
+						int temp=a[j][i];
+					a[j][i]=a[i][k];
+					a[i][k]=temp;
 				}
-			}
+				}
+			} 	
 		}
 		
-		System.out.println(Arrays.deepToString(a));
+	for(int i =0;i<a.length;i++)
+		{
+			for(int j=0;j<a[i].length;j++)
+			{
+			System.out.printf("%d\t",a[i][j]);
+			}
+			System.out.println();
+		}
 		
 	}
 }

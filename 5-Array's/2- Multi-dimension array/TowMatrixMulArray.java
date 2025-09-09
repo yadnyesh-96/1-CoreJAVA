@@ -17,9 +17,10 @@ public class TowMatrixMulArray{
 		};
 		
 		int c[][]=new int[3][3];
+		for(int k=0; k<
 		for(int i=0; i<c.length; i++){
 			for(int j=0; j<c[i].length; j++){
-				c[i][j]=(a[i][j]*b[i][j]);
+				
 			}
 		}
 		
