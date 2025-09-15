@@ -8,6 +8,7 @@ Call its member  using object or reference
 */
 
 import java.util.*;
+
 class Add{
 	Scanner sc=new Scanner(System.in);
 	int a,b;
