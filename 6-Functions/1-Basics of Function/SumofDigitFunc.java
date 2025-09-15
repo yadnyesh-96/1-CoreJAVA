@@ -8,7 +8,8 @@ import java.util.*;
 public class SumofDigitFunc{
 	public static void main(String x[]){
 	Scanner sc=new Scanner(System.in);
-		int n=123;
+	System.out.println("Eneter the two numbers :");
+		int n=sc.nextInt();
 		sumOfDigits(n);
 		
 	}
@@ -23,6 +24,7 @@ public class SumofDigitFunc{
 			i++;
 		}
 		System.out.println(sum);
+
 	}
 
 }
