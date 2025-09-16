@@ -3,18 +3,18 @@
 public class Printnumser{
 	public static void main(String x[]){
 		
-	System.out.println(sequence(8));
+	sequence(8);
 	}
 	
 	public static void sequence(int n){
 		
-		if(n == 0){
+		if(n <= 0){
 			return;
 		}
 		
 	//	sequence(n-1);
 		sequence(n-1);
-		return n;
+		System.out.println( n);
 	}
 
 }
