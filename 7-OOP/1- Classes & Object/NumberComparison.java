@@ -16,11 +16,24 @@ class Functionality{
 	}
 	
 	void Comparison(){
-	
+		if(a>b){
+			System.out.println("First Number is Greater");
+			System.out.println("Second Number is Less");
+		}else if(b>a){
+			System.out.println("First Number is Less");
+			System.out.println("Second Number is Greater");
+		}else{
+			System.out.println("Both are Equals");
+		}
 	}
 
 }
 
 public class NumberComparison{
-
+	public static void main(String x[]){
+		Functionality c=new Functionality();
+		c.Input();
+		c.Comparison();
+		
+	}
 }
