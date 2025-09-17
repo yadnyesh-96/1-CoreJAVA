@@ -12,8 +12,9 @@ public class FibonacciSerise{
 		}
 	
 	}
-	
+
 	public static int fiboS(int n){
+		
 		if(n<=1){
 			return n;
 		}

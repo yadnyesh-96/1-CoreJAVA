@@ -13,6 +13,7 @@ public class Printnum{
 		}
 		
 		System.out.println(n);
-		series(n-1);
+		
+		series(n-1);  // recursion 
 	}
 }
