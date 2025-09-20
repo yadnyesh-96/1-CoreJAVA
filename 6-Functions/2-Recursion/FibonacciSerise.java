@@ -18,7 +18,6 @@ public class FibonacciSerise{
 		if(n<=1){
 			return n;
 		}
-		
 		return fiboS(n-1)+fiboS(n-2);
 		
 	}
