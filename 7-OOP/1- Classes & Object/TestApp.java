@@ -1,17 +1,20 @@
 class TestApp{
 	
 	public static void main(String x[]){
-		int num=2;
-		int pow=5;
-		System.out.println(get(2,5));
+		int n=1;
+		int a=10;
+		
+		for(int i=n; i<=a; i++){
+			
+			for(int j=n; j<=a; j++){
+			System.out.printf("%d\t",i*j);
+			
+			}
+			System.out.println();
+		}
+		
+		
 	}
 	
-	public static int get(int n, int p){
-		
-		if(p==0){
-			return 1;
-		}else{
-			return n*get(n,p-1);
-		}
-	}
+	
 }
