@@ -14,7 +14,7 @@ public class PrimeNum{
 		if(n<=2){
 			return;
 		}else{
-			System.out.println(Isprime(n%(n-1)==0));
+			
 		}
 		
 	}
