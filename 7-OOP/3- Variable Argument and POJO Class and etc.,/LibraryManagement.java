@@ -57,21 +57,24 @@ class Library{
 		
 		void ShowDetails(){
 			
-			/*
+			
 			System.out.printf("Id        Name           Author             Price (Rs.)");
 			System.out.println("\n------------------------------------------------------"); 
-			*/
-			for(int j=0; j<books.length; j++){
-				for(int i=1; i<books.length; i++){
-				if(books[i].getPrice()>books[j].getPrice()){
-					
-					System.out.printf("\n"+books[i].getId()+"\n"+books[i].getName()+"\n"+books[i].getAuthor()+"\n"+books[i].getPrice()+" /-Rs.");
-						break;
+			
+			Book maxBook = books[0];  // start with the first book
+
+			for (int i = 1; i < books.length; i++) {
+					if (books[i].getPrice() > maxBook.getPrice()) {
+						maxBook = books[i];   // update if higher price found
 					}
-				}
 			}
 			
-			
+			// Print only once: the highest-priced book
+				System.out.printf("\n%d   %s   %s   %d /-Rs.",
+					maxBook.getId(),
+					maxBook.getName(),
+					maxBook.getAuthor(),
+					maxBook.getPrice());
 		}
 }
 
