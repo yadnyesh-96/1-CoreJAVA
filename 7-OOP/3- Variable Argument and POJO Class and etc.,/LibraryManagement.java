@@ -56,10 +56,27 @@ class Library{
 		}
 		
 		void ShowDetails(){
+			System.out.println("List of All Books:");
+			System.out.println();
+			System.out.printf("%-5s %-25s %-25s %-10s\n", "Id", "Name", "Author", "Price (Rs.)");
+			System.out.println("---------------------------------------------------------------");
+	
+			for (int i = 0; i < books.length; i++) {
+					System.out.printf("%-5d %-25s %-25s %-10d\n",
+					books[i].getId(),
+					books[i].getName(),
+					books[i].getAuthor(),
+					books[i].getPrice());
+			}
 			
 			
-			System.out.printf("Id        Name           Author             Price (Rs.)");
-			System.out.println("\n------------------------------------------------------"); 
+			System.out.println();
+			System.out.println();
+			
+			System.out.println("Most Expensive book from list ");
+			System.out.println();
+			System.out.printf("%-5s %-25s %-25s %-10s\n", "Id", "Name", "Author", "Price (Rs.)");
+			System.out.println("---------------------------------------------------------------"); 
 			
 			Book maxBook = books[0];  // start with the first book
 
@@ -70,7 +87,7 @@ class Library{
 			}
 			
 			// Print only once: the highest-priced book
-				System.out.printf("\n%d   %s   %s   %d /-Rs.",
+				System.out.printf("%-5d %-25s %-25s %-10d\n",
 					maxBook.getId(),
 					maxBook.getName(),
 					maxBook.getAuthor(),
@@ -105,7 +122,7 @@ public class LibraryManagement{
 			
 			Book b4=new Book();
 			b4.setId(04);
-			b4.setName("Pumpkin Spice & Everything Nice");
+			b4.setName("Pumpkin Spice ");
 			b4.setAuthor("Katie Cicatelli-Kuc");
 			b4.setPrice(981);
 			
