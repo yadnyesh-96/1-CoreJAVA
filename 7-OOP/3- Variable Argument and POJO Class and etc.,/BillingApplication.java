@@ -126,6 +126,7 @@ class Shop{
 		
 		int total=0;
 		int gTotal=0;
+		
 		System.out.println();
 		System.out.println();
 		System.out.println("You Entered Deatails:");
@@ -133,9 +134,12 @@ class Shop{
 		System.out.printf("%-5s %-20s %-15s %-10s %-10s %-10s\n",
                           "ID", "Name", "Company", "Qty", "Rate","Total");
         System.out.println("------------------------------------------------------------------------");
+		
 		for(int i=0; i<Pros.length; i++){
 		System.out.println();
+		
 		 total=(Pros[i].getQty()*Pros[i].getRate());
+		 
 		System.out.printf("%-5s %-20s %-15s %-10s %-10s %-10s\n",Pros[i].getId(),Pros[i].getName(),Pros[i].getCompany(),Pros[i].getQty(),Pros[i].getRate(),total);
 		 gTotal+=total;
 		}
