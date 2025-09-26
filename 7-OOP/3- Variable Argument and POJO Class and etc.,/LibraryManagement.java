@@ -130,7 +130,7 @@ public class LibraryManagement{
 			b5.setId(05);
 			b5.setName("The Let Them Theory");
 			b5.setAuthor("Mel Robbins");
-			b5.setPrice(379);
+			b5.setPrice(379); 
 			
 		L.inputBooksData(b1,b2,b3,b4,b5);
 		L.ShowDetails();
