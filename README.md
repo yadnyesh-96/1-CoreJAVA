@@ -25,6 +25,7 @@ I started this repo when I began my Java learning journey, and I **regularly upd
 | 7-OOP | Practice on Variable Arguments & POJO class | Last week |
 | 8-Linear Sorting Algorithm | Implementation of Linear Sort Algorithm | 06 October 2025 |
 | 9-Binary Search Algorithm | Implementation of Binary Search Algorithm | 07 October 2025 |
+| 10-Selction Sorting Algorithm | Implementation of Section Sorting Algorithm | 07 October 2025 |
 
 ---
 
