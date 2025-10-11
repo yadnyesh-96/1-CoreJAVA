@@ -10,12 +10,13 @@ public class FirstNegNumWin{
 		
 		int a[]=new int[]{12,-1,-7,8,-15,30,16,28};
 		
-		int k=4;
+		int k=3;
 		
-		int n=0;		
+		int n=0;
+			
 		System.out.print("\n[");
 		for(int i=0; i<k; i++){
-			System.out.print(a[i]);
+			System.out.print(a[i]+" ");
 			if(n==0&&a[i]<0){
 				n=a[i];
 			}
@@ -23,14 +24,17 @@ public class FirstNegNumWin{
 		
 		System.out.print("] = "+n);
 		n=0;
+		
 		for(int j=k; j<a.length; j++){
 			
+			//sum+=a[j]-a[j-k]
 			
 			System.out.print("\n[");
-		n=0;
+			n=0;
+			//Display logic here 
 			for(int i=j-k+1; i<=j; i++){
 				System.out.print(a[i]+" ");
-				if(n==0&&a[i]<0){
+				if(a[i]<0){
 					n=a[i];
 				}
 				
