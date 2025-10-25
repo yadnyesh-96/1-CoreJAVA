@@ -22,6 +22,7 @@ public class MinSubAvg{
 				if(Len<len){
 					len=Len;
 				}
+				
 				sum-=a[start];
 				start++;
 			}
