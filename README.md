@@ -41,4 +41,3 @@ I started this repo when I began my Java learning journey, and I **regularly upd
 
 ---
 
-![Java Animation](https://media.giphy.com/media/l41lV1zRZtM3GyECA/giphy.gif)
