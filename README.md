@@ -15,13 +15,13 @@ I started this repo when I began my Java learning journey, and I **regularly upd
 
 | Chapter | Description | Last Update |
 |---------|-------------|-------------|
-| 1-First Chapter - Data Types & Scanner | All practical exercises of first chapter | 2 months ago |
-| 1st Revision Plan | Revisions and notes for first chapter | Last month |
-| 2-Arithmetic Operators | Practical exercises for operators | 2 months ago |
-| 3-Decision Making | Practice on if, switch, and logical statements | 2 months ago |
-| 4-Loops | For, while, and do-while loop practice | 2 months ago |
-| 5-Arrays | Function & Arrays & class object practice | 22/09/2025 |
-| 6-Functions | Function & Arrays & class object practice | 22/09/2025 |
+| 1-First Chapter - Data Types & Scanner | All practical exercises of first chapter | 5 July 2025 |
+| 1st Revision Plan | Revisions and notes for first chapter | July 2025 |
+| 2-Arithmetic Operators | Practical exercises for operators | July 2025 |
+| 3-Decision Making | Practice on if, switch, and logical statements | 5 August 2025 |
+| 4-Loops | For, while, and do-while loop practice | 15 August 2025 |
+| 5-Arrays | Function & Arrays & class object practice | 22 September 2025 |
+| 6-Functions | Function & Arrays & class object practice | 22 September 2025 |
 | 7-OOP | Variable Arguments & POJO class & Constructor | 31 October 2025 |
 | 8-Linear Sorting Algorithm | Implementation of Linear Sort Algorithm | 06 October 2025 |
 | 9-Binary Search Algorithm | Implementation of Binary Search Algorithm | 07 October 2025 |
