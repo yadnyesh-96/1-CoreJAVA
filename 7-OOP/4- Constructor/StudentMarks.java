@@ -81,6 +81,7 @@ class Student{
 		
 		System.out.println("Student Details and Marks");
 		System.out.println("Roll No         :"+rollNo);
+		System.out.println("Student Name	:"+StdName);
 		System.out.println("Subject-1 Marks :"+m1);
 		System.out.println("Subject-2 Marks :"+m2);
 		System.out.println("Subject-3 Marks :"+m3);
