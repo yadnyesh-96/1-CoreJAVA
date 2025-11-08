@@ -38,7 +38,8 @@ class MedicalStudent extends Student{
 		for(int i=0; i<marks.length; i++){
 			if(marks[i]>=50){
 				count++;
-			}			
+			}
+			
 		}
 		System.out.println("Student Name :"+name);
 		System.out.print("Result :");

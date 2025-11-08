@@ -22,7 +22,7 @@ class BankAccount{
 class saving extends BankAccount{
 	
 	double calculateInterest(){
-		double interest =(principalAmt*time*1)/100;
+		double interest =(principalAmt*time*5)/100;
 		return interest;
 	}
 }
@@ -30,7 +30,7 @@ class saving extends BankAccount{
 class CurrentAccount extends BankAccount{
 	
 	double calculateInterest(){
-		double interest = (principalAmt*time*1)/100;
+		double interest = (principalAmt*time*3)/100;
 		return interest;	
 	}
 }
@@ -65,14 +65,14 @@ public class InterestCalculate{
 		BankAccount B=new saving();
 		B.time=5;
 		B.principalAmt=10000;
-		B.calculateInterest();
+		
 		
 		A.InterceptorOperations(B);
 		
 		B=new CurrentAccount();
 		B.time=10;
 		B.principalAmt=1000;
-		B.calculateInterest();
+		
 		
 		A.InterceptorOperations(B);
 	}

@@ -28,7 +28,7 @@ class TechingStaff extends Staff{
 
 class NonTechingStaff extends Staff{
 		
-		@Override 
+	 
 	void incrementSalary(){
 		System.out.println("Name :"+name);
 		System.out.println("Salary :"+salary);
