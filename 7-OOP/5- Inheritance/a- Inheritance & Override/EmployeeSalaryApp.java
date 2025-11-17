@@ -74,12 +74,12 @@ class ContractEmployee extends Employee{
 
 public class EmployeeSalaryApp{
 	public static void main(String x[]){
-		
 		Employee E1=new PermanentEmployee(001,"ABC",15000);
 		E1.display();
 		
 		System.out.println("---------------------------\n");
 		E1=new ContractEmployee(002,"XYZ",23000);
 		E1.display();
+		
 	}
 }
