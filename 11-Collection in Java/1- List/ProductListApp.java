@@ -29,7 +29,7 @@ public class ProductListApp{
 	public static void main(String x[]){
 		
 		Vector v=new Vector();
-		/*
+		
 		v.add(new Product(1,"Lassi",50));
 		v.add(new Product(2,"Juice",40));
 		v.add(new Product(3,"Pizza",80));
@@ -43,21 +43,14 @@ public class ProductListApp{
 		
 		System.out.println("ID\tProducts\tPrice");
 		System.out.println("---------------------------------");
-		/*for(Object obj:v){
+		for(Object obj:v){
 			
 			Product p=(Product) obj; //down Casting
 			System.out.println(p.getID()+"\t"+p.getName()+"\t\t"+p.getPrice());
 				
 		}
-		*/
 		
-		v.add("Yadnyesh");
-		v.add("Kailas");
-		v.add("dhanagar");
-		v.add(11);
-		v.add(12);
-		v.add(13);
-		v.add(14);
-		System.out.println(v);
+		
+		
 	}
 }
