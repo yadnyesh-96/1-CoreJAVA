@@ -11,7 +11,8 @@ public class IiHasNextApp{
 		
 		Iterator i=al.iterator();  // iterator interface class 
 								// method iterator() overrride here
-		
+
+
 		while(i.hasNext()){    // hasNext() method to check element in collection
 			Object obj=i.next();   // next() fetch data from collection
 			System.out.println(obj); // prints
