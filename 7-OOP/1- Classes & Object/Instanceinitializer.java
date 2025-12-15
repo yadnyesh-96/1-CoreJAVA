@@ -1,6 +1,7 @@
 //instance initilizer 
 
 class Demo{
+	static int a=10;
 		//Instance initializer
 		// instatnce initializer is a nameless block 
 		// it is executes before the constructor 
@@ -16,6 +17,7 @@ class Demo{
 public class Instanceinitializer{
 	public static void main(String x[]){
 		Demo i=new Demo();
+		System.out.println(i.a);
 		
 	}
 }
