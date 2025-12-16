@@ -14,13 +14,5 @@ public class CMAPP{
 		int size=al.size();
 		System.out.println(size);
 		
-		
-		//Ensure the arraylist empty or not
-		
-		boolean a=al.isEmpty();
-		if(a){ System.out.println("Array List is Empty");
-		}else{System.out.println("Array list is not Empty");}
-		
-		
 	}
 }
