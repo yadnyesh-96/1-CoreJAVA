@@ -1,6 +1,6 @@
 public class MainMethodOverloaded{
 	
-	public static void main(String x[]){
+	public static void main(String... x){
 		
 		main(10);
 		main("Yadnyesh");
