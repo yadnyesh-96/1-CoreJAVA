@@ -7,22 +7,23 @@ public class BISAPP{
 		
 		int a[]=new int[6];
 		
-		System.out.print("\nInsert Value in array:");
+		System.out.print("Insert Value in array:\n");
 		for(int i=0; i<a.length; i++){
 			System.out.print((i+1)+"=");
 			a[i]=sc.nextInt();
 		}
 		
-		System.out.println("\n\nEnter Value to Search:");
-		int s=sc.nextInt();
+		do{
+			System.out.println("\n\nEnter Value to Search:");
+			int s=sc.nextInt();
 		
-		int index=Search(a,s);
-		if(index!=-1){
-			System.out.println("Value found:"+a[index]);
-		}else{
-			System.out.println("Value is not found !");
-		}
-		
+			int index=Search(a,s);
+			if(index!=-1){
+				System.out.println("Value found:"+a[index]);
+			}else{
+				System.out.println("Value is not found !");
+			}
+		}while(true);
 		
 	}
 	
