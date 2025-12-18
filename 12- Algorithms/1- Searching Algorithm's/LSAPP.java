@@ -19,7 +19,7 @@ public class LSAPP{
 		if(index!=-1){
 			System.out.println("Value Found:"+a[index]);
 		}else{
-			SYstem.out.println("Value is not found !");
+			System.out.println("Value is not found !");
 		}
 		
 	}
