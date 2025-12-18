@@ -8,7 +8,7 @@ public class LSAPP{
 		
 		System.out.println("Insert Elements in Array:");
 		for(int i=0; i<a.length; i++){
-			System.out.print(i+"=");
+			System.out.print((i+1)+"=");
 			a[i]=sc.nextInt();
 		}
 		
