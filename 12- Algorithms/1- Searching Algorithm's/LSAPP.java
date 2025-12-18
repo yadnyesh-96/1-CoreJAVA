@@ -24,7 +24,7 @@ public class LSAPP{
 		
 	}
 	
-	public static int Serach(int[] arr, int skey){
+	public static int Search(int[] arr, int skey){
 		int index=-1;
 		for(int i=0; i<arr.length; i++){
 			if(arr[i]==skey){
