@@ -8,7 +8,7 @@ public class SLSAPP{
 		int a[]=new int[6];
 
 		for(int i=0; i<a.length; i++){
-			System.out.print("Insert Values:\n"+(i+1));
+			System.out.print("Insert Values:\n"+(i+1)+"=");
 			a[i]=sc.nextInt();
 		}	
 		
