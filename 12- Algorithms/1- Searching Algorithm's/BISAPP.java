@@ -7,7 +7,7 @@ public class BISAPP{
 		
 		int a[]=new int[6];
 		
-		System.out.print("Insert Value in array:");
+		System.out.print("\nInsert Value in array:");
 		for(int i=0; i<a.length; i++){
 			System.out.print((i+1)+"=");
 			a[i]=sc.nextInt();
