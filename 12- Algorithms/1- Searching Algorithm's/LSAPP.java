@@ -29,9 +29,9 @@ public class LSAPP{
 		for(int i=0; i<arr.length; i++){
 			if(arr[i]==skey){
 				index=i;
-				return index;
 				break;
 			}
 		}
+		return index;
 	}
 }
