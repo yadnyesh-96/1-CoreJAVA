@@ -3,6 +3,7 @@
 import java.util.*;
 public class LSAPP{
 	public static void main(String x[]){
+		Scanner sc=new Scanner(System.in);
 		int a[]=new int[6];
 		
 		System.out.println("Insert Elements in Array:");
@@ -25,8 +26,8 @@ public class LSAPP{
 	
 	public static int Serach(int[] arr, int skey){
 		int index=-1;
-		for(int i=0; i<a.length; i++){
-			if(a[i]==skey){
+		for(int i=0; i<arr.length; i++){
+			if(arr[i]==skey){
 				index=i;
 				return index;
 				break;
