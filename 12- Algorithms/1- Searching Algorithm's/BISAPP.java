@@ -28,7 +28,7 @@ public class BISAPP{
 	
 	public static int Search(int[] arr,int skey){
 		
-		int L=0,R=arr.length,index=-1,mid;
+		int L=0,R=arr.length-1,index=-1,mid;
 		
 		while(L<=R){
 			mid=L+(R-L)/2;
@@ -39,7 +39,7 @@ public class BISAPP{
 			}
 			
 			if(arr[mid]<skey){
-				L=mid+1
+				L=mid+1;
 			}else{
 				R=mid-1;
 			}
