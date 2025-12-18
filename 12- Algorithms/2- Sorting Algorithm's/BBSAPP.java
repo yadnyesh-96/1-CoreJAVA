@@ -33,7 +33,7 @@ public class BBSAPP{
 			}
 		}
 		
-		System.out.print("\n[");
+		System.out.print("\n[")
 		for(int V:a){System.out.print(" "+V);}
 		System.out.print("]\n");
 	}
