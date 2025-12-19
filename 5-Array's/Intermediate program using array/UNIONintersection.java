@@ -56,7 +56,7 @@ public class UNIONintersection{
 					intersection[len++]=a[j];
 				}else{
 					union[len++]=a[j];
-					//union[len++]=b[k];
+					//	union[len++]=b[k];
 				}
 			}
 		}
