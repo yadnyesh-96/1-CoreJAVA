@@ -1,6 +1,6 @@
 class ABC{
 
-	static int ;
+	static int a;
 }
 public class ABCAPP{
 	public static void main(String x[]){
