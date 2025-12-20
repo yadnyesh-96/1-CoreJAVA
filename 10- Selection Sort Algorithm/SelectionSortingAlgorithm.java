@@ -15,7 +15,7 @@ public class SelectionSortingAlgorithm{
         System.out.println("Array Before the Sorting:" );
         System.out.println("[");
         for(int M:arr){
-            System.out.printf("%d\t",M)
+            System.out.printf("%d\t",M);
         }
         System.out.printf("]\n");
 
