@@ -5,7 +5,7 @@ public class BBSAPP{
 	public static void main(String x[]){
 		Scanner sc=new Scanner(System.in);
 		
-		int a[]=new int[6]
+		int a[]=new int[6];
 		
 		System.out.println("Insert Values in Array:");
 		for(int i=0; i<a.length; i++){
@@ -13,7 +13,7 @@ public class BBSAPP{
 			a[i]=sc.nextInt();
 		}
 		
-		BubbleSort(a);
+		BubbleSort(a)
 	}
 	
 	public static void BubbleSort(int[] a){
