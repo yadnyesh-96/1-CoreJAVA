@@ -7,7 +7,7 @@ Create  object of class
 Call its member  using object or reference 
 */
 
-import java.util.*
+import java.util.*;
 
 class Add{
 	Scanner sc=new Scanner(System.in);
