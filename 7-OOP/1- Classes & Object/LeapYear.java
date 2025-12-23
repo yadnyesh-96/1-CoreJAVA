@@ -4,7 +4,7 @@ Create a class LeapYearChecker with a method isLeapYear to check if a year is a 
 Explanation: Implements logical conditions for leap year calculation.
 */
 import java.util.*;
-class LeapYearChecker{
+class LeapYearChecker
 	
 	void isLeapYear(int yrs){
 		if(yrs%400==0 || (yrs % 4 == 0 && yrs % 100 != 0)){
