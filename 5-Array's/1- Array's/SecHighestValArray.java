@@ -18,7 +18,7 @@ public class SecHighestValArray{
 		System.out.println("arr:="+Arrays.toString(arr));
 		
 		
-		int maxval=Integer.MIN_VALUE;
+		int maxval=Integer.MIN_VALUE
 				
 		for(int i=0; i<arr.length; i++){
 			
