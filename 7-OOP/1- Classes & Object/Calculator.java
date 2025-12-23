@@ -4,7 +4,7 @@ Create a class Calculator with methods add, subtract, multiply, and divide for t
 Explanation: Teaches basic arithmetic operations using methods.
 */
 
-import java.util.*;
+import java.util.*
 class Operation{
 	Scanner sc=new Scanner(System.in);
 	int a,b;
