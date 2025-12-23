@@ -22,7 +22,7 @@ public class PerfectNumofArray{
 						
 						
 				}
-				j++;
+				j
 			}
 			System.out.println(num==sum? "perfect Number:"+num :
 		}
