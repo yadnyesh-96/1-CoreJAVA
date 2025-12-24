@@ -15,15 +15,19 @@ public class REAARANGEARRAY{
 		for(int i=0; i<b.length; i++){
 			
 			if(i%2==0){
-				b[i]=a[k];
+				if(k%2!=0){
+					b[i]=a[k];	
+				}
+				j++;				
 			}else{
-				if((i%2!=0)&&(j%2==0)){
-					b[i]=a[j];
+				if(i%2!=0){
+				//	System.out.println("i="+i+"j="+j);
+				b[i]=a[j];
+				j++;
 				}
 			}
-		j++;
-		k++;
-			
+			k++;
+			//j++;
 		}
 		
 		System.out.print("\n[");
