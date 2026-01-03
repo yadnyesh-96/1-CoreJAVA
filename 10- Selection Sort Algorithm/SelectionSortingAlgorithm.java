@@ -9,7 +9,7 @@ public class SelectionSortingAlgorithm{
 
         System.out.println("Enter the Values in Arrya:");
         for(int i=0; i<arr.length; i++){
-            arr[i]=sc.nextInt()
+            arr[i]=sc.nextInt();
         }
 
         System.out.println("Array Before the Sorting:" );
