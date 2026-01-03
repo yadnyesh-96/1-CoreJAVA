@@ -12,7 +12,7 @@ public class ListIAPP{
 		al.add(40);
 		al.add(50);
 		
-		Iterator i=al.Iterator();
+		Iterator i=al.Iterator()
 		
 		while(i.hasNext()){
 			Object obj=i.next();
