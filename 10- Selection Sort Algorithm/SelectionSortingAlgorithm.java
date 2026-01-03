@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SelectionSortingAlgorithm{
+public class SelectionSortingAlgorithm
     public static void main(String x[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Size of Array:");
