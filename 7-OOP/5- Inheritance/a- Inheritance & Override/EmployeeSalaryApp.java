@@ -6,8 +6,7 @@
  ContractEmployee bonus = 10% of salary.
  Print bonus using a common reference to demonstrate runtime polymorphism.
 
- Explanation:
- Tests dynamic method dispatch where base-class reference holds subclass objects.
+
 */
 
 class Employee{
