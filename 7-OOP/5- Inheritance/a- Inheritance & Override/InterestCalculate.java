@@ -1,7 +1,7 @@
 /*
 
 2. Question:
- Create a class BankAccount with a method 
+ Create a class BankAccount with a method calculateInterest(). 
  Create subclasses SavingsAccount (interest rate 5%) 
  and CurrentAccount (interest rate 3%).
  Calculate interest for different account types and display it.
