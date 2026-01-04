@@ -3,9 +3,7 @@
  Create base class Employee with method calculateBonus().
  PermanentEmployee bonus = 25% of salary.
 
- ContractEmployee bonus = 10% of salary.
- Print bonus using a common reference to demonstrate runtime polymorphism.
-
+ 
  Explanation:
  Tests dynamic method dispatch where base-class reference holds subclass objects.
 */
