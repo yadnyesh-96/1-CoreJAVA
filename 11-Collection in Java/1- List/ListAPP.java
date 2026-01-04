@@ -14,7 +14,9 @@ public class ListAPP{
 		/*
 		L1.add(10);
 		L1.add(20);
-		L1.\
+		L1.add(30);
+		L1.add(40);
+		L1.add(50);
 		*/
 		System.out.println("----------------");
 		for(int i=0; i<5; i++){
