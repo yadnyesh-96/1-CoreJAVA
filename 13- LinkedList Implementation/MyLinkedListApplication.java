@@ -24,7 +24,7 @@ class MyLinkedList{
 	}
 	
 	void iterable(){
-		if(head=null){
+		if(head==null){
 			System.out.println("LinkedList is Empty");
 		}else{
 			Node temp=head;
