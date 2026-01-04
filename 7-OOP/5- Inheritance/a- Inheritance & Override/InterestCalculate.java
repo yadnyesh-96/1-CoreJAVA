@@ -7,7 +7,7 @@
  Calculate interest for different account types and display it.
  Explanation:
  This tests inheritance with customized implementations in child classes.
-
+ SI=(P*R*T)/100  Total=SI+P
 */
 
 class BankAccount{
