@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ListAPP
+public class ListAPP{
 	public static void main(String x[]){
 		Scanner sc=new Scanner(System.in);
 		ArrayList L1=new ArrayList();
