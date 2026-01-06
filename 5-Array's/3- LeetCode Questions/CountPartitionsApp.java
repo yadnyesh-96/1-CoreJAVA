@@ -12,7 +12,7 @@ public class CountPartitionsApp{
                     if(i>count){
 						count=i;
 					}else{
-						count*0;
+						count*=0;
 					}
                 }
             }
