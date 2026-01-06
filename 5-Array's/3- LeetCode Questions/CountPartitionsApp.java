@@ -10,7 +10,7 @@ public class CountPartitionsApp{
                 sum_b+=nums[j];
                 if((sum_a-sum_b)%2==0){
                     if(i>count){
-						count+=i;
+						count=i-j;
 					}
                 }
             }
