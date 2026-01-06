@@ -14,7 +14,7 @@ public class CountPartitionsApp{
             }
         }
 
-        return count;
+        return count+1;
 	}
 	
 	public static void main(String x[]){
