@@ -11,8 +11,6 @@ public class CountPartitionsApp{
                 if((sum_a-sum_b)%2==0){
                     if(i>count){
 						count=i;
-					}else{
-						count*=0;
 					}
                 }
             }
