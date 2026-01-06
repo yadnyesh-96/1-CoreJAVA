@@ -9,12 +9,12 @@ public class CountPartitionsApp{
             for(int j=i+1; j<nums.length; j++){
                 sum_b+=nums[j];
                 if((sum_a-sum_b)%2==0){
-                    if(i>count){count=i;}
+                    if(i>count){count=i+1;}
                 }
             }
         }
 
-        return count+1;
+        return count;
 	}
 	
 	public static void main(String x[]){
