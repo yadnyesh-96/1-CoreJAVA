@@ -3,13 +3,17 @@
 public class CountPartitionsApp{
 	
 	public static int countPartitions(int[] nums){
-		 int count=0,sum_a=0,sum_b=0;
+		 int count=1,sum_a=0,sum_b=0;
         for(int i=0; i<nums.length; i++){
             sum_a+=nums[i];
             for(int j=i+1; j<nums.length; j++){
                 sum_b+=nums[j];
                 if((sum_a-sum_b)%2==0){
-                    if(i>count){count=i+1;}
+                    if(i>count){
+						count=i;
+					}else{
+						count*0;
+					}
                 }
             }
         }
