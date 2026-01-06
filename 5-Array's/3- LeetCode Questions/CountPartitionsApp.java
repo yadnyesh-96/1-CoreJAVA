@@ -8,7 +8,7 @@ public class CountPartitionsApp{
             sum_a+=nums[i];
             for(int j=i+1; j<nums.length; j++){
                 sum_b+=nums[j];
-                if((sum_a-sum2)%2==0){
+                if((sum_a-sum_b)%2==0){
                     count=i;
                 }
             }
