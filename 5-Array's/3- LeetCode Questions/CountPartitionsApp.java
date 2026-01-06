@@ -2,7 +2,7 @@
 
 public class CountPartitionsApp{
 	
-	public int countPartitions(int[] nums){
+	public static int countPartitions(int[] nums){
 		 int count=0,sum_a=0,sum_b=0;
         for(int i=0; i<nums.length; i++){
             sum_a+=nums[i];
