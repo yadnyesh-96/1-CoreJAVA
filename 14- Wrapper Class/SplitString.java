@@ -15,6 +15,6 @@ public class SplitString{
 			s1+=s.charAt(i);
 		}
 		
-		System.out.println(s);
+		System.out.println(s1);
 	}
 }
