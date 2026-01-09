@@ -8,7 +8,7 @@ public class SplitString{
 		
 		for(int i=0; i<s.length(); i++){
 			
-			if(i==3){
+			if(i==4){
 				s1+=" ";	
 			}
 			
