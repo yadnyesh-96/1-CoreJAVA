@@ -18,7 +18,7 @@ public class TrimString{
 		String t="";
 		
 		for(int i=start; i<end; i++){
-			t+=charAt(i);
+			t+=s.charAt(i);
 		}
 		
 		System.out.println(t);
