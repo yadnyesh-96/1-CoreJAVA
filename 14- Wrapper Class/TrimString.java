@@ -21,6 +21,6 @@ public class TrimString{
 			t+=s.charAt(i);
 		}
 		
-		System.out.println(t);
+		System.out.println("["+t+"]");
 	}
 }
