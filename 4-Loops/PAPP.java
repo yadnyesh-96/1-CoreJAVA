@@ -17,7 +17,7 @@ public class PAPP{
 			i++;
 			
 		}
-		String str = num==sum ? "Perfect number" : "Not perfect number";
+		
 		System.out.println(str);
 	}
 	
