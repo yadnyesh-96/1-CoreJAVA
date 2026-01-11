@@ -4,7 +4,12 @@ public class FAPP{
 
 	public static void main(String x[]){
 	
-		S
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number to print their factorial:");
+		int num = sc.nextInt();
+		long fac = 1;
+		int i = 1;
+		while(i <=num){
 		
 			
 			fac = fac*i;
