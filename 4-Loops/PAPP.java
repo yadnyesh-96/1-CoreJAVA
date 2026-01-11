@@ -10,7 +10,11 @@ public class PAPP{
 		int i =1;
 		int sum = 0;
 		
-		
+		while(i <= (num/2)){
+			if(num%i==0){
+				sum=sum+i;
+			}
+			i++;
 			
 		}
 		String str = num==sum ? "Perfect number" : "Not perfect number";
