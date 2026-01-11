@@ -39,11 +39,7 @@ public class TAMAPP{
 				//System.out.println(sum);
 		}
 
-		if(temp==sum){
-			System.out.println(sum);
-		}
-		i++;	//1
-		}
+		
 		
 	}
 	
