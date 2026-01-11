@@ -91,7 +91,17 @@ public class AlphaChkerApp{
 									}
 								break;
 								
+								case 5:
+								 System.out.println("-----------------------------------------");
+									System.out.println("Exit....!");
+									System.exit(0);
+									break;
 								
+								default:
+								 System.out.println("-----------------------------------------");
+									System.out.println("Invalid Input");
+									
+									continue;
 							
 							
 						}
