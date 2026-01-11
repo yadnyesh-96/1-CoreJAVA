@@ -11,13 +11,7 @@ public class QuestionFiftyFive{
 		
 		
 	
-		num1=5*i;
-		System.out.println(num1);
-		num2=3*i;
-		if(num2!=24){
-		System.out.println(num2);
-		}
-		i++;
+		
 	}
 	}
 
