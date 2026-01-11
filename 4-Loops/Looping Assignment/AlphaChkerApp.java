@@ -78,18 +78,7 @@ public class AlphaChkerApp{
 								
 								case 4:
 									 System.out.println("-----------------------------------------");
-									if((a>=65)&&(a<=90)){
-										System.out.println("Uppercase");
-										ch=(char)((int)ch.charAt(0)+32);
-										System.out.println(ch+"conver in Lowercase: "+ch.charAt(0));
-										 System.out.println("-----------------------------------------");
-									}else if((a>=97)&&(a<=122)){
-										System.out.println("Lowercase");
-										ch=(char)((int)ch.charAt(0)-32);
-										System.out.println(ch+"conver in Uppercase: "+ch.charAt(0));
-										 System.out.println("-----------------------------------------");
-									}
-								break;
+								
 								
 								case 5:
 								 System.out.println("-----------------------------------------");
