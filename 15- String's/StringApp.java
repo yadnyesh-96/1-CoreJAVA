@@ -10,8 +10,8 @@ public class StringApp{
 			
 		System.out.println("Hashcode od s1:"+System.identityHashCode(s1));
 		
-		String s2=new String("abc");
-		String s3=new String("abc");
+		String s2=new String("abc");   // stored in heap section and different HashCode
+		String s3=new String("abc");      // stored in heap section and different HashCode
 		
 		System.out.println("Hashcode of s2:"+System.identityHashCode(s2));
 		
