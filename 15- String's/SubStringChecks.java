@@ -6,9 +6,9 @@ public class SubStringChecks{
 	public static void main(String x[]){
 		
 		String s="Java Collections";
-		String s1="iava";
+		String s1="jAva";
 		
-		String[] str=s.split(" ");
+		String[] str=s.toLowerCase().split(" ");
 		
 		HashSet<String> set = new HashSet<>();
 		
@@ -16,7 +16,7 @@ public class SubStringChecks{
 			set.add(word);
 		}
 		
-		if(set.contains(s1)){
+		if(set.contains(s1.toLowerCase())){
 			System.out.println("Sub String Found");
 		}else{
 			System.out.println("SubString is not found");
