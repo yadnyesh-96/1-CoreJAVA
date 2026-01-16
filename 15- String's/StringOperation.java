@@ -2,10 +2,10 @@
 public class StringOperation{
 	public static void main(String x[]){
 		
-		String str="Java";
+		String str="madam";
 		int n=str.length()-1;
 		int i=0;
-		boolean flag=flase;
+		boolean flag=false;
 		while(i<=n){
 			char s=str.charAt(i);
 			char m=str.charAt(n);
@@ -15,7 +15,7 @@ public class StringOperation{
 				break;
 			}
 			i++;
-			j--;
+			n--;
 		}
 		
 		if(flag){
