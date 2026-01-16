@@ -1,7 +1,7 @@
 
 public class StringOperation{
 	
-	public void isPalindrome(String str){
+	public static void isPalindrome(String str){
 		int n=str.length()-1;
 		int i=0;
 		boolean flag=true;
@@ -28,6 +28,7 @@ public class StringOperation{
 	public static void main(String x[]){
 		
 		String str="madam";
+		
 		isPalindrome(str);
 	}
 }
