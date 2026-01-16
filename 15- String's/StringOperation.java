@@ -33,7 +33,7 @@ public class StringOperation{
 			return;
 		}
 		
-		for(char c:str.tocharArray()){
+		for(char c:str.toCharArray()){
 			if(c==' '){
 				count++;
 			}
