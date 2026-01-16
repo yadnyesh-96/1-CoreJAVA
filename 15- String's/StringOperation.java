@@ -1,17 +1,17 @@
 
 public class StringOperation{
-	public static void main(String x[]){
-		
-		String str="madam";
+	
+	public void isPalindrome(String str){
 		int n=str.length()-1;
 		int i=0;
-		boolean flag=false;
+		boolean flag=true;
+		
 		while(i<=n){
 			char s=str.charAt(i);
 			char m=str.charAt(n);
 			
 			if(s!=m){
-				flag=true;
+				flag=false;
 				break;
 			}
 			i++;
@@ -19,10 +19,15 @@ public class StringOperation{
 		}
 		
 		if(flag){
-			System.out.println("Not pallindrome");
+			  System.out.println("Palindrome");
 		}else{
-			System.out.println("Pallindrome");
+			  System.out.println("Not Palindrome");
 		}
+	}
+	
+	public static void main(String x[]){
 		
+		String str="madam";
+		isPalindrome(str);
 	}
 }
