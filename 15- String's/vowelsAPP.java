@@ -17,7 +17,7 @@ public class vowelsAPP{
 		*/
 		
 		for(char c : str.toLowerCase().toCharArray()){
-			if("aeiou",indexOf(c) !=-1){
+			if("aeiou".indexOf(c) !=-1){
 				count++;
 			}
 		}
