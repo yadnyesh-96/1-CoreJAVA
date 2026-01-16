@@ -42,11 +42,16 @@ public class StringOperation{
 		System.out.println("Total words:"+(count+1));
 	}
 	
+	public static void DisplayChar(String str){
+		System.out.println("First Character From String is:"+str.charAt(0));
+		System.out.println("Last Character From String is:"+str.charAt(str.length()-1));
+	}
 	public static void main(String x[]){
 		
-		String str="madam";
+		String str=" Java is easy";
 		
 		isPalindrome(str);
 		CountWords(str);
+		DisplayChar(str);
 	}
 }
