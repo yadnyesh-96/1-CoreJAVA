@@ -3,11 +3,11 @@
 public class CHARAPP{
 	public static void main(String x[]){
 		
-		String str="Java Language";
+		String str="Programming";
 		int count=0;
 		for(int i=0; i<str.length(); i++){
 			
-			if(s.charAt(i) !=' '){
+			if(str.charAt(i) !=' '){
 				count ++;
 			}
 			
