@@ -25,10 +25,28 @@ public class StringOperation{
 		}
 	}
 	
+	public static void CountWords(String str){
+		str=str.trim();
+		int count=0;
+		if(str.isEmpty()){	
+			System.out.println("Total Words: 0");
+			return;
+		}
+		
+		for(char c:str.tocharArray()){
+			if(c==' '){
+				count++;
+			}
+		}
+		
+		System.out.println("Total words:"+(count+1));
+	}
+	
 	public static void main(String x[]){
 		
 		String str="madam";
 		
 		isPalindrome(str);
+		CountWords(str);
 	}
 }
