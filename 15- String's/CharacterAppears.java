@@ -6,7 +6,7 @@ public class CharacterAppears{
 		
 		String s="programming";
 		
-		Map<Character, Integer> map=new HashMap<>();
+		Map<Character, Integer> map=new LinkedHashMap<>();
 		
 		for(char c:s.toCharArray()){
 			if(map.containsKey(c)){
