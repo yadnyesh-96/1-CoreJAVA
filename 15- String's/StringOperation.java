@@ -43,6 +43,7 @@ public class StringOperation{
 	}
 	
 	public static void DisplayChar(String str){
+		str=str.trim();
 		System.out.println("First Character From String is:"+str.charAt(0));
 		System.out.println("Last Character From String is:"+str.charAt(str.length()-1));
 	}
