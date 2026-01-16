@@ -6,13 +6,13 @@ public class vowelsAPP{
 		String str="Programming";  //11
 		int count=0;
 		for(int i=0; i<str.length(); i++){
-			
-			if(str.charAt(i) !=' '){
+			char s=str.charAt(0);
+			if(s=='a' || s=='e' || s=='i' || s=='o' || s=='u'){
 				count ++;
 			}
 			
 		}
 		
-		System.out.println("Character's in Given String is:"+count);
+		System.out.println("Total Vowels in Given String is:"+count);
 	}
 }	
