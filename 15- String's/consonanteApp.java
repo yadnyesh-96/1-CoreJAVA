@@ -6,7 +6,7 @@ public class consonanteApp{
 		String str="Computer";
 		int count =0;
 		for(char c:str.toLowerCase().toCharArray()){
-			if("aeiou".indexOf(c) == -1){
+			if(c>="a" && c<="z" && "aeiou".indexOf(c) == -1){
 				count++;
 			}
 		}
