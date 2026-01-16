@@ -1,11 +1,12 @@
 
 
+import java.util.*;
 public class SubStringChecks{
 	
 	public static void main(String x[]){
 		
 		String s="Java Collections";
-		String s1="Java";
+		String s1="iava";
 		
 		String[] str=s.split(" ");
 		
