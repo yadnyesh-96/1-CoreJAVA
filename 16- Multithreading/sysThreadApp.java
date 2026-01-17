@@ -1,6 +1,6 @@
 
 class Test extends Thread{
-	public synchronized void run(){
+	public void run(){
 		try{
 			
 			for(int i=1; i<=5; i++){
@@ -37,7 +37,7 @@ public class sysThreadApp{
 	{
 		Test t1=new Test();
 		t1.start();
-		// t1.join();
+		 t1.join();
 		Test1 t2=new Test1();
 		t2.start();
 	}
