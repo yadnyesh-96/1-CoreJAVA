@@ -7,7 +7,7 @@ class Test extends Thread{
 		try{
 			
 			for(int i=1; i<=5; i++){
-				System.out.printf("I =%d\n",i);
+				System.out.printf("A =%d\n",i);
 					
 				Thread.sleep(1000);
 			}
@@ -22,8 +22,8 @@ class Test1 extends Thread{
 	public void run(){
 		try{
 			for(int j=1; j<=10; j++){
-				System.out.printf("J =%d\n",j);
-				Thread.sleep(500);
+				System.out.printf("B =%d\n",j);
+				Thread.sleep(1000);
 			}
 			
 		}catch(InterruptedException ex){
