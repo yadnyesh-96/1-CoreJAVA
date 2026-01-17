@@ -21,12 +21,13 @@ class Test1 extends Thread{
 	
 	public void run(){
 		try{
-			for(int j=1; j<=5; j++){
+			for(int j=1; j<=10; j++){
 				System.out.printf("J =%d\n",j);
+				Thread.sleep(500);
 			}
 			
-		}catch(InterruptedException ex1){
-			System.out.println("Error is:"+ex1);
+		}catch(InterruptedException ex){
+			System.out.println("Error is:"+ex);
 		}
 	}
 }
