@@ -32,7 +32,7 @@ class Test1 extends Thread{
 }
 
 public class JoinThreadApp{
-	public static void main(String x[]) throws Exception
+	public static void main(String x[])throws Exception
 	{
 		Test t1=new Test();
 		t1.start();
