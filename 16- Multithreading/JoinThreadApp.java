@@ -35,7 +35,7 @@ public class JoinThreadApp{
 	public static void main(String x[]){
 		Test t1=new Test();
 		t1.start();
-		t1.join()
+		t1.join();
 		Test1 t2=new Test1();
 		t2.start();
 	}
