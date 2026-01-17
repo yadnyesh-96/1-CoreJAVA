@@ -1,6 +1,6 @@
 
 class Test extends Thread{
-	synchronized void table(){
+	public synchronized void run(){
 		try{
 			
 			for(int i=1; i<=5; i++){
@@ -16,7 +16,7 @@ class Test extends Thread{
 
 class Test1 extends Thread{
 	
-	public void table(){
+	public void run(){
 		
 		try{
 				
