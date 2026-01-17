@@ -2,7 +2,7 @@
 
 class Print{
 		
-	synchronized void PrintA(){
+	public void PrintA(){
 		try{
 			for(int i=1; i<=5; i++){
 				System.out.printf("A =%d\n",i);
@@ -13,7 +13,7 @@ class Print{
 		}
 	}
 	
-	synchronized void PrintB(){
+	public void PrintB(){
 		try{
 			for(int j=1; j<=6; j++){
 				System.out.printf("B =%d\n",j);
