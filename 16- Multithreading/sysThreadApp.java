@@ -55,9 +55,9 @@ public class sysThreadApp{
 		Print p=new Print();
 		
 		Test t1=new Test(p);
-		Test1 t2=new Test1(p);
-		
 		t1.start();
+
+		Test1 t2=new Test1(p);
 		t2.start();
 	}
 }
