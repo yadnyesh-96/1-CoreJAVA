@@ -27,7 +27,8 @@ class Test1 extends Thread{
 }
 
 public class ThreadAPPQ{
-	public static void main(String x[]){
+	public static void main(String x[])throws Exception
+	{
 		Test t1=new Test();
 		t1.start();
 		t1.join();
