@@ -10,7 +10,11 @@ public class MAXAPP{
 	a[i]=sc.nextInt();
 	}
 	int max=Integer.MIN_VALUE;
-	for(int i=0; i<a.leng
+	for(int i=0; i<a.length; i++){
+		if(a[i]>max){
+			max=a[i];
+		}
+	}
 	System.out.println("The max Number in array is: "+max);
 	
 	}
