@@ -16,5 +16,7 @@ public class MAXAPP{
 		}
 	}
 	System.out.println("The max Number in array is: "+max);
+	
+	}
 
 }
