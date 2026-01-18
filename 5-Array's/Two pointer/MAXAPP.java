@@ -1,7 +1,7 @@
 // WAP to fine the max value of array size of array is 5.
 
 import java.util.*;
-public class MAXAPP{
+
 	public static void main(String x[]){
 	Scanner sc=new Scanner(System.in);
 	int a[]=new int[5];
