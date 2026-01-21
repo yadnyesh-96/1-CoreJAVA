@@ -37,11 +37,21 @@ We Perfrom the Synchronization by at two levels : <br>
         A synchronized block allow you to synchronize only part of method instead of whole method 
     This is useful when only a small section of code needs thread safe - improving performance by reducing locking time 
  <br>
-       <b> example:</b> <i>SynchronizationApp.java<i> <br>
+       <b> example:</b> <i>SynchronizationBlockApp.java<i> <br>
 
        
-        Deposite Reads Balance: 100 
-        Deposite :Write New Balance: 150
-        Widraw Reads Balance: 150
-        Widraw :Write New Balance: 100
-        Account Balance is: 100
+        DepositeReads Balance: 100
+        Deposite:Write New Balance: 150
+        WidrawReads Balance: 150
+        Widraw:Write New Balance: 100
+        Account Balance is: 100    
+
+---
+<b>Synchronized method and synchronized block 
+</b><br>
+    1. In synchronized method  lock scope for whole method and synchronized block lock scope for particular block.<br>
+    2. Lock for whole working object and lock for specific object you choose.<br>
+    3. Performance in method synchronization is slightly slower than block synchronization.<br>
+    4. When we want to provide thread safety to entire method then synchronized method is better and when we want to provide thread safety to particular block or piece of code then synchronized block is recommended. 
+ 
+
