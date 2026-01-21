@@ -53,6 +53,6 @@ public class SynchoronizationApp{
 		t1.join();
 		t2.join();
 		
-		System.out.println("Account Balance is: "+b.getBalance());
+		System.out.println(" Account Balance is: "+b.getBalance());
 	}
 }
