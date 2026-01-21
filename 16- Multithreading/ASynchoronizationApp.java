@@ -12,7 +12,7 @@ class BankAccount{
 			System.out.println("Error: "+ex);
 		}
 		balance=temp;
-		System.out.println(Therad.currentThread().getName()+":Write New Balance: "+balance);
+		System.out.println(Thread.currentThread().getName()+":Write New Balance: "+balance);
 		
 	}
 	
@@ -32,7 +32,7 @@ class Transactions extends Thread{
 	
 	public void run(){
 		bank_acc.TranscatioMethod(amt);
-	
+	}
 }
 
 public class ASynchoronizationApp{
