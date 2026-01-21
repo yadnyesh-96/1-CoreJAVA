@@ -1,8 +1,7 @@
 
-1. Asynchronization in JAVA 
-(ASynchoronizationApp.java)
-
-
+1. Asynchronization in JAVA:
+- Example of Asynchronization in java 
+- (ASynchoronizationApp.java)
 
 ```
  Deposite Reads Balance: 100
