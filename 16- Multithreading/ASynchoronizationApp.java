@@ -1,6 +1,6 @@
 
 class BankAccount{
-	private inr balance=100;
+	private int balance=100;
 	
 	public void TranscatioMethod(int amt){
 		int temp=balance;
