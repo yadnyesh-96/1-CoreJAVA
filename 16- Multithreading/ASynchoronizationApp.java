@@ -36,7 +36,7 @@ class Transactions extends Thread{
 }
 
 public class ASynchoronizationApp{
-	public static void main(String x[])
+	public static void main(String x[])throws Exception
 	{
 		
 		BankAccount b=new BankAccount();
