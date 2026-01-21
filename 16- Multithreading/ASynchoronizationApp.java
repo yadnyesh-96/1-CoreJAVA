@@ -32,7 +32,7 @@ class Transactions extends Thread{
 	
 	public void run(){
 		bank_acc.TranscatioMethod(amt);
-	}
+	
 }
 
 public class ASynchoronizationApp{
