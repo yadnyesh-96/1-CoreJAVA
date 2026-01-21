@@ -43,7 +43,7 @@ public class SynchronizationBlockApp{
 		Transaction t1=new Transaction(b,50);
 		t1.setName("Deposite");
 		
-		Transaction t2=new Transaction(b,50);
+		Transaction t2=new Transaction(b,-50);
 		t2.setName("Widraw");
 		
 		t1.start();
