@@ -1,6 +1,6 @@
 
 class BankAccount{
-	private int balance;
+	private int balance=100;
 	
 	public void TranscationMethod(int amt){
 		// Particular block synchronized
