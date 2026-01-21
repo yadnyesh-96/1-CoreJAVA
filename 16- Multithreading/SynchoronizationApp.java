@@ -2,7 +2,7 @@
 class BankAccount{
 	private int balance=100;
 	
-	public void TranscatioMethod(int amt){
+	public synchronized void TranscatioMethod(int amt){
 		int temp=balance;
 		System.out.println(Thread.currentThread().getName()+"Reads Balance: "+balance);
 		temp=temp+amt;
@@ -35,7 +35,7 @@ class Transactions extends Thread{
 	}
 }
 
-public class ASynchoronizationApp{
+public class SynchoronizationApp{
 	public static void main(String x[])throws Exception
 	{
 		
@@ -53,6 +53,6 @@ public class ASynchoronizationApp{
 		t1.join();
 		t2.join();
 		
-		System.out.println(" Account Balance is: "+b.getBalance());
+		System.out.println("Account Balance is: "+b.getBalance());
 	}
 }
