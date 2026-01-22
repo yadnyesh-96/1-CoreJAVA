@@ -76,7 +76,7 @@ public class ThreadLifeCycleAPP{
 		
 		do{
 			String msg=sc.nextLine();
-			System.out.println(Table.num+" state "+Table.getState());
+			System.out.println(Table.num+" state "+Table.th.getState());
 			if(msg.equals("restart")){
 				t.recall();
 			}
