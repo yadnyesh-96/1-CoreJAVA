@@ -9,11 +9,11 @@ class Table{
 	num=no;
 		try{
 		for(int i=1; i<=5; i++){
-			System.out.println("%d X %d = %d\n",n,i,i*n);
+			System.out.println("%d X %d = %d\n",num,i,i*num);
 			if(i==5){
 				th=t;
 				wait();
-				System.out.println("Thread "+no+" state "+t.getState());
+				System.out.println("Thread "+num+" state "+t.getState());
 			}
 			Thread.sleep(1000);
 		}		
