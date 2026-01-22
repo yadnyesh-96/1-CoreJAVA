@@ -81,7 +81,7 @@ public class ThreadLifeCycleAPP{
 				t.recall();
 			}
 			
-			if(msg.equals("stop"){
+			if(msg.equals("stop")){
 			break;
 			}
 		}while(true);
