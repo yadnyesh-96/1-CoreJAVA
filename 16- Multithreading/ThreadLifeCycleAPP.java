@@ -9,7 +9,7 @@ class Table{
 	num=no;
 		try{
 		for(int i=1; i<=5; i++){
-			System.out.println("%d X %d = %d\n",num,i,i*num);
+			System.out.printf("%d X %d = %d\n",num,i,i*num);
 			if(i==5){
 				th=t;
 				wait();
