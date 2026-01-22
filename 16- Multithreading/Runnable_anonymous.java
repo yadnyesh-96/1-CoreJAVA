@@ -15,7 +15,7 @@ public class Runnable_anonymous{
 				}
 			}
 		};
-		Thread t=new Thread(r);
+		Thread t=new Thread(rn);
 		t.start();
 	}
 }
