@@ -1,7 +1,7 @@
 
 
 public class CHARAPP{
-	public static void main(String x[]){
+
 		
 		String str="Programming";  //11
 		int count=0;
