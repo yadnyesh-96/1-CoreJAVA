@@ -13,6 +13,6 @@ public static void main(String x[]){
 			
 		}
 		
-		System.out.println("Character's in Given String is:"+count);
+		// System.out.println("Character's in Given String is:"+count);
 	}
 }	
