@@ -61,7 +61,7 @@ class Three extends Thread{
 }
 
 public class ThreadLifeCycleAPP{
-	public static void main(String x[])
+	public static void main(String x[])ThreadLifeCycleAPP
 	{
 		Scanner sc=new Scanner(System.in);
 		
