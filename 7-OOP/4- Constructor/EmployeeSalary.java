@@ -27,15 +27,7 @@ class Employee{
 		this.grossSalary=basicSalary+hra+da;
 	}
 	
-		void setEmpId(int empId){
-			this.empId=empId;
-		}
 		
-		int getEmpId(){
-			return empId;
-		}
-		
-		void setEmpName(String empName){
 			this.empName=empName;
 		}
 		
