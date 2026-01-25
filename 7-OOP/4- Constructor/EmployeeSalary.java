@@ -46,10 +46,7 @@ class Employee{
 		void setBasicSalary(double basicSalary){
 			this.basicSalary=basicSalary;
 		}
-		
-		double getBasicSalary(){
-			return basicSalary;
-		}
+
 		
 		void setHRA(double hra){
 			this.hra=hra;
