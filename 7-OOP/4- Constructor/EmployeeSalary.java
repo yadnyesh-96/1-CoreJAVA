@@ -22,7 +22,9 @@ class Employee{
 		this.empId=empId;
 		this.empName=empName;
 		this.basicSalary=basicSalary;
-		this.da;
+		this.hra=0.10*basicSalary;
+		this.da=0.15*basicSalary;
+		this.grossSalary=basicSalary+hra+da;
 	}
 	
 		void setEmpId(int empId){
