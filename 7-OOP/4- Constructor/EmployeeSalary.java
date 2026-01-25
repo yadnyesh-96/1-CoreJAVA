@@ -18,7 +18,13 @@ class Employee{
 	private double basicSalary,hra,da,grossSalary;
 	
 	Employee(int empId, String empName, double basicSalary){
-	
+		
+		this.empId=empId;
+		this.empName=empName;
+		this.basicSalary=basicSalary;
+		this.hra=0.10*basicSalary;
+		this.da=0.15*basicSalary;
+		this.grossSalary=basicSalary+hra+da;
 	}
 	
 		void setEmpId(int empId){
