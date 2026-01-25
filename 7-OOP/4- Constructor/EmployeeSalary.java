@@ -15,7 +15,7 @@ class Employee{
 	
 	private int empId;
 	private String empName;
-	private double basicSalary,hra,da,grossSalary;
+	// private double basicSalary,hra,da,grossSalary;
 	
 	Employee(int empId, String empName, double basicSalary){
 		
