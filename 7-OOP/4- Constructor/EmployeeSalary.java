@@ -40,7 +40,12 @@ class Employee{
 		}
 		
 		String getEmpName(){
-
+			return empName;
+		}
+		
+		void setBasicSalary(double basicSalary){
+			this.basicSalary=basicSalary;
+		}
 		
 		double getBasicSalary(){
 			return basicSalary;
