@@ -4,7 +4,12 @@ Q1. Problem:
 	empId, empName, basicSalary, hra, da, and grossSalary.
 	Use a parameterized constructor to initialize empId, empName, and basicSalary.
 	HRA = 10% of basic, DA = 15% of basic, and Gross = Basic + HRA + DA.
-	Disp
+	Display all employee details and salary slip.
+	Hint: Use constructor to calculate the salary.
+	Explanation:
+	This helps you understand how constructors can perform 
+	initial calculations immediately after object creation.
+ */
  
 class Employee{
 	
