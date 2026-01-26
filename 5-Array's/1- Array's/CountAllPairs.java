@@ -9,7 +9,7 @@ public class CountAllPairs{
 			
 			for(int j=0; j<a.length; j++){
 				if((a[i]-a[j])==2 || (a[i]-a[j])==-2){
-					System.out.println("["+a[i]+" "+a[j]+"]");
+					System.out.println("["+a[i]+","+a[j]+"]");
 				}
 			}
 		}
