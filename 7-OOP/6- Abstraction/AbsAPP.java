@@ -9,7 +9,11 @@ class Developer extends Employee{
 		System.out.println("Need A Software developer");
 	}	
 	}
-	
+	class cook extends Employee{
+		
+		void skill(){
+			System.out.println("Required a Good Chief");
+	}
 
 }
 
