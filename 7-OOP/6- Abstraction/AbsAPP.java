@@ -3,7 +3,7 @@ abstract class Employee{
 	abstract void skill();
 }
 
-// class Developer extends Employee{
+class Developer extends Employee{
 	
 	void skill(){
 		System.out.println("Need A Software developer");
