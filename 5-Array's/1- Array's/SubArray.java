@@ -13,7 +13,7 @@ public class SubArray{
 					
 				sum+=a[j];
 				if(sum==7){
-					System.out.print("["+i+".."+j+"] -- {");
+					System.out.print("["+i+".."+j+"] --> {");
 					for(int k=i; k<=j; k++){
 						System.out.print(a[k]+" ");
 					}						
