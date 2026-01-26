@@ -19,7 +19,7 @@ public class TripletsWithZero{
 			
 			for(int j=i+1; j<k; j++){
 				sum+=a[i]-a[j];
-				System.out.print(a[j]);
+				System.out.print(sum);
 			}
 		}
 		
