@@ -1,3 +1,7 @@
+abstract class Employee{
+	
+	abstract void skill();
+}
 
 class Developer extends Employee{
 	
