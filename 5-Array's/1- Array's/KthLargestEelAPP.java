@@ -6,7 +6,7 @@ public class KthLargestEelAPP{
 			
 			int a[]=new int[]{7, 10, 4, 3, 20, 15};
 			
-			int k=2;
+			int k=1;
 			
 			PriorityQueue<Integer> pq=new PriorityQueue();
 			
