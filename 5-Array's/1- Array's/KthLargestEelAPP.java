@@ -8,7 +8,7 @@ public class KthLargestEelAPP{
 			
 			int k=2;
 			
-			PrioirityQueue<Integer> pq=new PrioirityQueue();
+			PriorityQueue<Integer> pq=new PriorityQueue();
 			
 			for(int num:a){
 				pq.add(num);
