@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int[] array = {1, 3, 5, 7, 8, 9};
+
+        CeilFloor cf = new CeilFloor();
+        cf.setArray(array);
+
+        System.out.print("The given array is : ");
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println("\n");
+
+        for (int i = 0; i <= 10; i++) {
+            cf.findCeilFloor(i);
+        }
+    }
+}
