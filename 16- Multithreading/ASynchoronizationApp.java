@@ -3,22 +3,7 @@ class BankAccount{
 	private int balance=100;
 	
 	public void TranscatioMethod(int amt){
-		int temp=balance;
-		System.out.println(Thread.currentThread().getName()+"Reads Balance: "+balance);
-		temp=temp+amt;
-		try{
-			Thread.sleep(1000);
-		}catch(Exception ex){
-			System.out.println("Error: "+ex);
-		}
-		balance=temp;
-		System.out.println(Thread.currentThread().getName()+":Write New Balance: "+balance);
-		
-	}
 	
-	public int getBalance(){
-		return balance;
-	}
 }
 
 class Transactions extends Thread{
