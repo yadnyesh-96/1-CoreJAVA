@@ -25,7 +25,7 @@ class Transactions extends Thread{
 	BankAccount bank_acc;
 	int amt;
 	
-	Transactions(BankAccount bank_acc,int amt){
+	// Transactions(BankAccount bank_acc,int amt){
 		this.bank_acc=bank_acc;
 		this.amt=amt;
 	}
