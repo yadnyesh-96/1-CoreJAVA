@@ -30,29 +30,29 @@ class Transactions extends Thread{
 		this.amt=amt;
 	}
 	
-	public void run(){
-		bank_acc.TranscatioMethod(amt);
-	}
-}
+// 	public void run(){
+// 		bank_acc.TranscatioMethod(amt);
+// 	}
+// }
 
-public class ASynchoronizationApp{
-	public static void main(String x[])throws Exception
-	{
+// public class ASynchoronizationApp{
+// 	public static void main(String x[])throws Exception
+// 	{
 		
-		BankAccount b=new BankAccount();
+// 		BankAccount b=new BankAccount();
 		
-		Transactions t1=new Transactions(b,50);
-		t1.setName(" Deposite ");
+// 		Transactions t1=new Transactions(b,50);
+// 		t1.setName(" Deposite ");
 		
-		Transactions t2=new Transactions(b,-50);
-		t2.setName(" Widraw ");
+// 		Transactions t2=new Transactions(b,-50);
+// 		t2.setName(" Widraw ");
 		
-		t1.start();
-		t2.start();
+// 		t1.start();
+// 		t2.start();
 		
-		t1.join();
-		t2.join();
+// 		t1.join();
+// 		t2.join();
 		
-		System.out.println(" Account Balance is: "+b.getBalance());
-	}
-}
+// 		System.out.println(" Account Balance is: "+b.getBalance());
+// 	}
+// }
