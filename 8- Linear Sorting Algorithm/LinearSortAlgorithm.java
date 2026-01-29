@@ -11,10 +11,7 @@ class Algorithm{
         for(int i=0; i<m.length; i++){
             if(m[i]==seky){ // by using the conditional statement .
                 index=i;  // if value are the found then the it stores in the index and
-                break; // break if found 
-            }
-        } 
-        return index; // here we return the index value 
+       ndex value 
     }
 }
 public class LinearSortAlgorithm{
