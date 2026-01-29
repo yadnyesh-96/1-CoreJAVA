@@ -22,17 +22,7 @@ class BankAccount{
 }
 
 class Transactions extends Thread{
-	BankAccount bank_acc;
-	int amt;
-	
-	Transactions(BankAccount bank_acc,int amt){
-		this.bank_acc=bank_acc;
-		this.amt=amt;
-	}
-	
-	public void run(){
-		bank_acc.TranscatioMethod(amt);
-	}
+
 }
 
 public class ASynchoronizationApp{
