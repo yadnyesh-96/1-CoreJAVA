@@ -47,7 +47,7 @@ public class ASynchoronizationApp{
 		Transactions t2=new Transactions(b,-50);
 		t2.setName(" Widraw ");
 		
-		// t1.start();
+		t1.start();
 		// t2.start();
 		
 		t1.join();
