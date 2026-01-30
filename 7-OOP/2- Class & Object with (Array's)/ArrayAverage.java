@@ -11,9 +11,7 @@ Logic: Use sum ÷ total elements.
 class Average{
 	int a[];
 	
-	void inputArray(int arr[]){
-		a=arr;
-	}
+	
 	
 	double findAverage(){
 		int sum=0;
