@@ -4,7 +4,14 @@
 import java.util.*;
 public class CalFactApp{
 	public static void main(String x[]){
-	
+		
 	}
-
+	
+	public static int fac(int no){
+		int fac=0;
+		for(int i=1; i<=no; i++){
+			fac*=i;
+		}
+		return fac;
+	}
 }
