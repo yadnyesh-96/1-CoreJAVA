@@ -7,7 +7,6 @@ class UserException extends RuntimeException{
 		return "Your not eligible";
 	}
 }
-
 class checkVoter{
 	void validVoter(int age){
 		
