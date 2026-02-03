@@ -5,7 +5,7 @@ import java.util.*;
 public class CalFactApp{
 	public static void main(String x[]){
 		Scanner sc = new Scanner(System.in);
-		int no = 5;
+		int no = sc.nextInt();
 		int res = fac(no);
 		System.out.println("Factorial is :"+res);
 	}
