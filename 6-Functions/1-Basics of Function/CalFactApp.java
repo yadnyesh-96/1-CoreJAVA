@@ -6,7 +6,7 @@ public class CalFactApp{
 	public static void main(String x[]){
 		int no = 5;
 		int res = fac(no);
-		
+		System.out.println("Factorial is :"+res);
 	}
 	
 	public static int fac(int no){
