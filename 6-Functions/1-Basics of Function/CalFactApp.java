@@ -5,6 +5,7 @@ import java.util.*;
 public class CalFactApp{
 	public static void main(String x[]){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number form KeyBoard:");
 		int no = sc.nextInt();
 		int res = fac(no);
 		System.out.println("Factorial is :"+res);
