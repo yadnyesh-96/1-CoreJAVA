@@ -4,6 +4,8 @@
 import java.util.*;
 public class CalFactApp{
 	public static void main(String x[]){
+		int no = 5;
+		int res = fac(no);
 		
 	}
 	
