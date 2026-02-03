@@ -3,7 +3,7 @@ import java.util.*;
 public class ListAPP{
 	public static void main(String x[]){
 		Scanner sc=new Scanner(System.in);
-		ArrayList L1=new ArrayList();
+		ArrayList L1=new ArrayList<>();
 		
 		
 		for(int i=0; i<5; i++){
