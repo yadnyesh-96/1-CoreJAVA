@@ -10,7 +10,7 @@ public class CalFactApp{
 	}
 	
 	public static int fac(int no){
-		int fac=0;
+		int fac=1;
 		for(int i=1; i<=no; i++){
 			fac*=i;
 		}
