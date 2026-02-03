@@ -18,7 +18,6 @@ class checkVoter{
 		}
 	}
 }
-
 public class throwAPP{
 	public static void main(String x[]){
 		try{
