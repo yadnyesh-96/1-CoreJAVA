@@ -14,5 +14,9 @@ public class ListIAPP{
 		
 		Iterator i=al.iterator();
 		
-	
+		while(i.hasNext()){
+			Object obj=i.next();
+			System.out.println(obj);
+		}
+	}
 }
