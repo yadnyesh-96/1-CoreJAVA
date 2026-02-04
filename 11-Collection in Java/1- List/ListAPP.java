@@ -6,10 +6,10 @@ public class ListAPP{
 		ArrayList L1=new ArrayList<>();
 		
 		
-		for(int i=0; i<5; i++){
-			int num=sc.nextInt();
-			L1.add(num);
-		}
+		// for(int i=0; i<5; i++){
+		// 	int num=sc.nextInt();
+		// 	L1.add(num);
+		// }
 		
 		/*
 		L1.add(10);
