@@ -16,10 +16,7 @@ class BinarySearch{
                 break;
             }
  
-            if(a[mid]<Skey){        //if the a[mid] value is less than Skey then increment the L is means moves next index
-                L=mid+1; 
-            }else{  
-                R=mid-1;            // else the decrement the R which means the revrse in index 
+              // else the decrement the R which means the revrse in index 
             }
         }
 
