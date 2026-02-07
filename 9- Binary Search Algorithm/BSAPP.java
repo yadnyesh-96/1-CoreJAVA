@@ -11,7 +11,7 @@ class BinarySearch{
 
             mid=L+(R-L)/2; // sets the mid value here 
 
-     mid] == Skey then store mid in index and break the loop 
+            if(a[mid]==Skey){   // a[mid] == Skey then store mid in index and break the loop 
                 index=mid;
                 break;
             }
