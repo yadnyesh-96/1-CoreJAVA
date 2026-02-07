@@ -4,7 +4,8 @@ class BinarySearch{
      
         // Created the method to search the Value in Array
    public static int SearchValue(int[] a,int Skey){  // input parameter is that the inetegre arrya and serach key 
-               // declare the mid as zero 
+        int index=-1;               // sets the index value -1 by defualt 
+        int L=0,R=a.length-1,mid;                  // declare the mid as zero 
 
         while(L<=R){    // check continue the value 
 
