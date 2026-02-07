@@ -30,19 +30,6 @@ class BinarySearch{
 
 
 public class BSAPP{
-    public static void main(String x[]){
-        Scanner sc=new Scanner(System.in);
-
-        System.out.println("Enter the Array Size:");
-        int n=sc.nextInt();   // input from user the Array size . 
-
-        // declared here the array 
-        int arr[]=new int[n];
-
-        // input the array values from user 
-        System.out.println("Enter the Value in Array:");
-        for(int i=0; i<arr.length; i++){
-            arr[i]=sc.nextInt();
         }
 
         // To Binary Search Work with the sorted array 
