@@ -1,4 +1,13 @@
-
+/*
+*********
+ *******
+  *****
+   ***
+    *
+   ***
+  *****
+ *******
+*/
 
 public class HourCube{
 	public static void main(String x[]){
