@@ -30,5 +30,7 @@ public class HourCube{
 				
 			}
 			
-	
+			System.out.println();
+		}
+	}
 }
