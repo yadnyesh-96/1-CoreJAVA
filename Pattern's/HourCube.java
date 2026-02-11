@@ -19,7 +19,7 @@ public class HourCube{
 			char ch=65;
 			for(int j=1; j<=n; j++){
 
-				
+		
 				if((j>=i && j<=n-(i-1))||(j<=i && j>=n-(i-1))){
 					
 					System.out.print(ch++);
