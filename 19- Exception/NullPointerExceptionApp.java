@@ -1,6 +1,6 @@
 
 
-// public class NullPointerExceptionApp{
+public class NullPointerExceptionApp{
 	static int a[];
 	public static void main(String x[]){
 		try{
