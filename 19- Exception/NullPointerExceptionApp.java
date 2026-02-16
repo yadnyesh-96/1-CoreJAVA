@@ -6,7 +6,7 @@ public class NullPointerExceptionApp{
 		try{
 			a[0]=100;
 			System.out.println(a[0]);
-		}catch(Exception ex){
+		// }catch(Exception ex){
 			System.out.println("Error is :"+ex);
 		}
 	}
