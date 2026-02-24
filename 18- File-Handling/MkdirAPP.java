@@ -8,7 +8,7 @@ public class MkdirAPP{
 	
 	public static void main(String x[]){
 		
-		File f = new File("D:\1-CoreJAVA\18- File-Handling\File-Handling-Practice");
+		File f = new File("D:\\1-CoreJAVA\\18- File-Handling\\File-Handling-Practice");
 		
 		if(f.exists()){
 			System.out.println("File Already Present");
