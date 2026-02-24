@@ -15,10 +15,13 @@ public class CountVowelsConsAPP{
 			String str = "programming";
 			int v=0,c=0;
 			for(char ch:str.toCharArray()){
-				if(ch == 'a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
-					v++;
-				}else{
-					c++;
+				
+				if(Character.isLetter(ch)){
+					if(ch == 'a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+						v++;
+					}else{
+						c++;
+					}
 				}
 			}
 			
