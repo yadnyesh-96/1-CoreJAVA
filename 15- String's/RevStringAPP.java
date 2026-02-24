@@ -26,6 +26,7 @@ public class RevStringAPP{
 		int len =str.length();
 		char ch[] = str.toCharArray();
 		int k=2;
+		
 		/*
 		for(int i=len-1; i>=0; i--){
 			char s = ch[i];
@@ -37,5 +38,6 @@ public class RevStringAPP{
 		for(char s:ch){
 			System.out.print(s);
 		}
+		
 	}
 }

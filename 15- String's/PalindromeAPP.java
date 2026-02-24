@@ -21,6 +21,7 @@ public class PalindromeAPP{
 		while(start<end){
 			if(ch[start]!=ch[end]){
 				flag=false;
+				break;
 			}	
 			
 			start++;
