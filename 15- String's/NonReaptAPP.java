@@ -7,7 +7,6 @@ Output: w
 
 import java.util.*;
 public class NonReaptAPP{
-
 	public static void main(String x[]){
 		
 		String str = "swiss";
