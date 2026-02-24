@@ -37,6 +37,7 @@ public class RotateArrayApp{
 		
 		// Step 3: reverse remaining elements
 		rotate(a,k,n-1);
+		
 		System.out.println("Reversed Array:");
 		for(int val:a){
 			System.out.print(val+" ");
