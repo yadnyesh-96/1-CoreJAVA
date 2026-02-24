@@ -14,22 +14,24 @@ public class CharFreqAPP{
 	
 	public static void main(String x[]){
 		Scanner sc=new Scanner(System.in);
-		String lang= "Yadnyesh";
 		
-		Map<Character,Integer> map = new LinkedHashMap<>();
+		System.out.println("Insert String Here:");
+		String inp =sc.nextLine();
 		
-		for(char ch:(lang).toLowerCase().toCharArray()){
+		Map<Character,Integer>map=new LinkedHashMap<>();
+		
+		for(char ch:inp.toLowerCase().toCharArray()){
+			if(Character.isWhitespace(ch)) continue;
 			
-			if(Character.isWhitespace(ch))continue;
-			
-			//map.put(ch,map.getOrDefault(ch,0)+1);
 			if(map.containsKey(ch)){
 				map.put(ch,map.get(ch)+1);
 			}else{
 				map.put(ch,1);
 			}
 		}
-		for(Map.Entry<Character,Integer> res:map.entrySet()){
+		
+		
+		for(Map.Entry<Character,Integer>res:map.entrySet()){
 			System.out.println(res.getKey()+" --> "+res.getValue());
 		}
 	}
