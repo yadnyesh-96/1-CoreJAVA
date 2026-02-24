@@ -4,7 +4,7 @@ public class ToggleCaseAPP{
 	
 	public static void main(String x[]){
 		
-		String str = "Abc";
+		String str = "Hello";
 		
 		char ch[] = str.toCharArray();
 		
@@ -19,3 +19,12 @@ public class ToggleCaseAPP{
 		System.out.println(new String(ch));
 	}
 }
+
+/*
+if(Character.isUpperCase(ch[i])){
+    ch[i] = Character.toLowerCase(ch[i]);
+}
+else if(Character.isLowerCase(ch[i])){
+    ch[i] = Character.toUpperCase(ch[i]);
+}
+*/
