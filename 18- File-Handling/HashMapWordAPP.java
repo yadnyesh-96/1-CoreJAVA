@@ -12,11 +12,7 @@ dog god
 Description: 
 Store the given words in a HashMap. 
  
-Do not use: 
-• Arrays.sort() 
-• Collections.sort() 
-• Any built-in anagram checking methods 
-Finally, traverse the Map and print groups containing more than one word.
+ containing more than one word.
 */
 
 import java.util.*;
