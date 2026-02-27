@@ -1,22 +1,7 @@
 
 
 /*
-Q8. tore N words in a HashMap. Group all anagrams together without using sort(). 
-Input: 6 
-listen , silent , cat , act , dog , god 
-Output: 
-Anagram Groups: 
-listen silent 
-cat act 
-dog god 
-Description: 
-Store the given words in a HashMap. 
- 
-Do not use: 
-• Arrays.sort() 
-• Collections.sort() 
-• Any built-in anagram checking methods 
-Finally, traverse the Map and print groups containing more than one word.
+\containing more than one word.
 */
 
 import java.util.*;
