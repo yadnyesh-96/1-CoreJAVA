@@ -1,16 +1,7 @@
 
 
 /*
-Q8. tore N words in a HashMap. Group all anagrams together without using sort(). 
-Input: 6 
-listen , silent , cat , act , dog , god 
-Output: 
-Anagram Groups: 
-listen silent 
-cat act 
-dog god 
-Description: 
-Store the given words in a HashMap. 
+
  
 Do not use: 
 • Arrays.sort() 
