@@ -101,5 +101,6 @@ public class Q2_Pattern {
 
             System.out.println();
         }
+        
     }
 }
