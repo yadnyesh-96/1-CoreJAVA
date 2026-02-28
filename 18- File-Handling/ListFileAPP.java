@@ -99,6 +99,7 @@ public class Q2_Pattern {
                 System.out.print((char)('A' + j) + " ");
             }
             System.out.println();
+            
         }
     }
 }
