@@ -103,5 +103,4 @@ public class Q2_Pattern {
         }
 
     }
-
 }
