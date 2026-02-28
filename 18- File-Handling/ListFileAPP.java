@@ -98,7 +98,6 @@ public class Q2_Pattern {
             for (int j = i - 1; j >= 0; j--) {
                 System.out.print((char)('A' + j) + " ");
             }
-
             System.out.println();
         }
     }
