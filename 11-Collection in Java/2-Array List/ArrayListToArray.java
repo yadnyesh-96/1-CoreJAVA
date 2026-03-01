@@ -8,7 +8,7 @@ public class ArrayListToArray{
 		al.add(10);
 		al.add(20);
 		al.add(30);
-			
+				
 		Object obj[]=al.toArray();
 
 		for(Object k:obj){
