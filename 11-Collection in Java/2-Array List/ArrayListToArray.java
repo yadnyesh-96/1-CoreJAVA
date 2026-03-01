@@ -10,7 +10,7 @@ public class ArrayListToArray{
 		al.add(30);
 		
 		Object obj[]=al.toArray();
-											
+												
 		for(Object k:obj){
 			System.out.println(k);
 		}
