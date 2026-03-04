@@ -11,7 +11,7 @@ public class ArrayListToArray{
 									
 		Object obj[]=al.toArray();
 
-		for(Object k:obj){						
+		for(Object k:obj){					
 			System.out.println(k);
 		}
 	}
