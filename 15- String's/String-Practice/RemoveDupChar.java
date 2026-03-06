@@ -9,7 +9,7 @@ public class RemoveDupChar{
 	
 	public static void main(String x[]){
 		
-		String str="banana";
+		String str="Programming";
 		
 		/*
 		Set<Character>s = new LinkedHashSet<>();
