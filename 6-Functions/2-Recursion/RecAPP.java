@@ -1,21 +1,21 @@
 
 public class RecAPP{
 	
-	static int fac(int n){
-		if(n==0){
-			return 1;
+	static int fib(int n){
+		if(n<=1){
+			return n;
 		}
 		
-		return n*fac(n-1);
+		return fib(n-1)+fib(n-2);
 	}
 	
 	
 	public static void main(String x[]){
 		
 		
-		int res=fac(5);
-		
-		System.out.println("factorial:"+res);
+		for(int i=0; i<=8; i++){
+			System.out.print(fib(1)+" ");
+		}
 		
 	}
 }
