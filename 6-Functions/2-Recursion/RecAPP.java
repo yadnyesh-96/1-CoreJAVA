@@ -1,21 +1,21 @@
 
 public class RecAPP{
 	
-	static int Pow(int base,int ind){
-		if(n==0){
-			return n;
+	static int fac(int n){
+		if(ind==0){
+			return 1;
 		}
 		
-		return base*Pow(base,ind-1);
+		return f*fac(n-1);
 	}
 	
 	
 	public static void main(String x[]){
 		
 		
-		int res=Pow(2,3);
+		int res=Pow(5);
 		
-		System.out.println("Power:"+res);
+		System.out.println("factorial:"+res);
 		
 	}
 }
