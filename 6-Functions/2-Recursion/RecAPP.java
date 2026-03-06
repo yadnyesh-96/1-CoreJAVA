@@ -5,7 +5,6 @@ public class RecAPP{
 		if(n<=1){
 			return n;
 		}
-		
 		return fib(n-1)+fib(n-2);
 	}
 	
@@ -14,7 +13,7 @@ public class RecAPP{
 		
 		
 		for(int i=0; i<=8; i++){
-			System.out.print(fib(1)+" ");
+			System.out.print(fib(i)+" ");
 		}
 		
 	}
