@@ -13,11 +13,6 @@ public class CountDigit{
 		return 0;	
 		}
 		
-	
-		
-		 
-
-
 	return 1 + Countdigit(n/10);
 	}
 	
