@@ -13,7 +13,7 @@ public class RecAPP{
 	public static void main(String x[]){
 		
 		
-		int res=Pow(5);
+		int res=fac(5);
 		
 		System.out.println("factorial:"+res);
 		
