@@ -6,7 +6,7 @@ public class RecAPP{
 			return 1;
 		}
 		
-		return f*fac(n-1);
+		return n*fac(n-1);
 	}
 	
 	
