@@ -5,7 +5,7 @@ public class AnagramAPP{
 	public static void main(String x[]){
 		
 		String str = "listen";
-		String str1 = "listen";
+		String str1 = "silent";
 		
 		int f[]=new int[26];
 		
