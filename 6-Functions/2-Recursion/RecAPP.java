@@ -2,7 +2,7 @@
 public class RecAPP{
 	
 	static int fac(int n){
-		if(ind==0){
+		if(n==0){
 			return 1;
 		}
 		
