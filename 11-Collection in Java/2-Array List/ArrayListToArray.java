@@ -12,7 +12,7 @@ public class ArrayListToArray{
 		Object obj[]=al.toArray();
 
 		for(Object k:obj){
-			System.out.println(k); 
+			System.out.println(k);
 		}
 	}
 }
