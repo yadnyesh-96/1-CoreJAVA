@@ -10,7 +10,10 @@ public class NonReaptAPP{
 	public static void main(String x[]){
 		
 		String str = "swiss";
+		
+		
 		char ch[] = str.toCharArray();
+		/*
 		Map<Character,Integer> map=new LinkedHashMap<>();
 		
 		for(char c :ch){
@@ -27,6 +30,24 @@ public class NonReaptAPP{
 			if(res.getValue()==1){
 				System.out.println(res.getKey());
 				break;
+			}
+		}
+		*/
+		boolean visit[] = new boolean[ch.length];
+		
+		for(int i=0; i<ch.length; i++){
+			if(visit[i])continue;
+			
+			int count=1;
+			for(int j=i+1; j<ch.length; j++){
+				if(ch[i]==ch[j]){
+					visit[j]=true;
+					count++;
+				}
+			}
+			if(count==1){
+			System.out.println(ch[i]);
+			break;
 			}
 		}
 	}
