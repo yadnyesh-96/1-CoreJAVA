@@ -5,6 +5,7 @@ is method can work with any child class object of that particular parent as per 
 following example:
 */
 
+/*
 class Value{
 	int a,b;
 	void setValue(int a,int b){
@@ -37,10 +38,10 @@ class Calculator{
 		System.out.println(type +" is :"+res);
 	}
 }
-
+*/
 public class LCAPP{
 	public static void main(String x[]){
-		
+		/*
 		Calculator c1=new Calculator();
 		
 		Value v=new Add();
@@ -54,5 +55,21 @@ public class LCAPP{
 		v=new Mul();
 		v.setValue(5,4); //20
 		c1.getOperation(v,"Multiplication");
+		*/
+		
+		 int num=28;
+        int temp=1;
+        int sum=0;
+        while(temp<=num){
+            if(temp%num==0){
+				sum+=temp;
+			}
+			temp++;
+        }
+
+        System.out.println(num);
+        System.out.println(sum);
+        System.out.println(num==sum);
 	}
 }
+
