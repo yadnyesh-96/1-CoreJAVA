@@ -1,31 +1,29 @@
 
-class VoterException extends RuntimeException
-{
-	public String getErrorMessage(){
-		return "you are not eligible for voting ";
+
+class VoterException extends RuntimeException{
+	public String getErrorMsg(){
+		return "YOur are not eligible for voting";
 	}
 }
 
 class CheckVoter{
-	void validateVoter(int age){
+		
+	public void voterCheck(int age){
 		if(age<18){
 			throw new VoterException();
 		}else{
-			System.out.println("you can vote");
+			System.out.println("Your eligible for voting");
 		}
 	}
 }
+
 public class ExceptionAPP{
-	
 	public static void main(String x[]){
-		
+		CheckVoter c = new CheckVoter();
 		try{
-			CheckVoter cv = new CheckVoter();
-			cv.validateVoter(10);
-			
+			c.voterCheck(12);
 		}catch(VoterException ex){
-			System.out.println(ex.getErrorMessage());
+			System.out.println("Error is:"+ex.getErrorMsg());
 		}
-		
 	}
 }
