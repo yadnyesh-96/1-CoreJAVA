@@ -1,8 +1,13 @@
 
 public class ExpAPP{
-	static int a[];
-	public static void main(String x[])throws NullPointerException
+	
+	public static void main(String x[])throws ArithmeticException
 	{
-		a[0]=20;
+		try{
+		int res = 10/0;
+		System.out.println(res);
+		}catch(ArithmeticException e){
+			System.out.println("cannot divide by zero");
+		}
 	}
 }
