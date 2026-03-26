@@ -1,9 +1,10 @@
 
-
+import java.util.*;
 public class CollectionLinkedListApp{
 	public static void main(String x[]){
 		
-		LinkedList<Integer> lk =new LinkedList<>();
+		 LinkedList list = new LinkedList();
+		//	LinkedList<Integer> lk =new LinkedList<>();
 		
 		lk.add(10);
 		lk.add(20);
