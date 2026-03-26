@@ -41,10 +41,10 @@ public class EmployeeAPP{
 		
 		List ls =new ArrayList();
 		
-		ls.add(new(12,1450,"Ajay");
-		ls.add(new(14,1200,"Vijay");
-		ls.add(new(13,1600,"Vikrant");
-		ls.add(new(11,1100,"Suresh");
+		ls.add(new(12,1450,"Ajay"));
+		ls.add(new(14,1200,"Vijay"));
+		ls.add(new(13,1600,"Vikrant"));
+		ls.add(new(11,1100,"Suresh"));
 		
 		
 		Iterator i = ls.listIterator();
