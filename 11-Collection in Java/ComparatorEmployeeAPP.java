@@ -1,7 +1,7 @@
 
-
+import java.util.Comparator;
 import java.util.*;
-class Employee implements Comparable {
+class Employee implements{
 	int id;
 	int sal;
 	String name;
@@ -35,18 +35,38 @@ class Employee implements Comparable {
 		return id;
 	}
 	
-	public int compareTo(Object obj){
-		Employee e1 = (Employee) obj;
-		if(this.id>e1.id){
+}
+
+public class sortById implements Comparator{
+	public int compare(Object obj1,Object obj2){
+		Employee e1=(Employee)obj1;
+		Employee e2=(Employee)obj2;
+		
+		if(e1>e2){
 			return 1;
-		}else if(this.id<e1.id){
+		}else if(e1<e2){
+			return -1;
+		}else{
+			return 0;
+		}	
+	}	
+}
+
+public class sortBySal implements Comparator{
+	
+	public int compare(Object obj1,Object obj2){
+		Employee e1 = (Employee) obj1;
+		Employee e2 = (Employee) obj2;
+		
+		if(e1>e2){
+			return 1;
+		}else if(e1<e2){
 			return -1;
 		}else{
 			return 0;
 		}
 	}
 }
-
 
 public class ComparatorEmployeeAPP{
 	public static void main(String x[]){
@@ -67,7 +87,8 @@ public class ComparatorEmployeeAPP{
 		}
 		
 		System.out.println("After the Sorting :");
-		Collections.sort(ls);
+		Comparator c = new sortById();
+		Collections(ls,c);
 		
 		Iterator r = ls.listIterator();
 		while(r.hasNext()){
