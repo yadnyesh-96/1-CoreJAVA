@@ -50,8 +50,8 @@ public class EmployeeAPP{
 		Iterator i = ls.listIterator();
 		
 		while(i.hasNext()){
-			Employee e = i.next();
-			System.out.println(e.getId()+" "+e.getName()+" "+e.getSal());
+			Employee e = (Employee)i.next();
+			System.out.println(e.getId()+" "+e.getName()+"  "+e.getSal());
 		}
 	}
 }
