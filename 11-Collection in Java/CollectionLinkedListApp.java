@@ -3,7 +3,7 @@ import java.util.*;
 public class CollectionLinkedListApp{
 	public static void main(String x[]){
 		
-		 LinkedList list = new LinkedList();
+		 LinkedList lk = new LinkedList();
 		//	LinkedList<Integer> lk =new LinkedList<>();
 		
 		lk.add(10);
