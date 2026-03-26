@@ -1,6 +1,6 @@
 
 import java.util.*;
-class Employee {
+class Employee implements Comparable {
 	int id;
 	int sal;
 	String name;
@@ -33,6 +33,17 @@ class Employee {
 	int getId(){
 		return id;
 	}
+	
+	public int compareTo(Object obj){
+		Employee e1 = (Employee) obj;
+		if(this.id>e1.id){
+			return 1;
+		}else if(this.id<e1.id){
+			return -1;
+		}else{
+			return 0;
+		}
+	}
 }
 
 
@@ -48,6 +59,14 @@ public class EmployeeAPP{
 		
 		
 		Iterator i = ls.listIterator();
+		
+		while(i.hasNext()){
+			Employee e = (Employee)i.next();
+			System.out.println(e.getId()+" "+e.getName()+"  "+e.getSal());
+		}
+		
+		System.out.println("After the Sorting :");
+		Collection.sort(ls);
 		
 		while(i.hasNext()){
 			Employee e = (Employee)i.next();
