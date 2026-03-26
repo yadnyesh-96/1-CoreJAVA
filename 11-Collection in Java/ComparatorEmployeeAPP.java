@@ -1,7 +1,7 @@
 
 import java.util.Comparator;
 import java.util.*;
-class Employee implements{
+class Employee{
 	int id;
 	int sal;
 	String name;
