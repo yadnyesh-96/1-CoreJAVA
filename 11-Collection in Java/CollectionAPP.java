@@ -4,7 +4,7 @@ import java.util.*;
 public class CollectionAPP{
 	public static void main(String x[]){
 		
-		List<Integer> ls = new Vector<>();
+		Vector<Integer> ls = new Vector<>();
 		
 		ls.add(10);
 		ls.add(20);
@@ -15,8 +15,8 @@ public class CollectionAPP{
 		
 		Enumeration e = ls.elements();
 		
-		while(i.hasMoreNext()){
-			Object obj = i.nextElement();
+		while(e.hasMoreElements()){
+			Object obj = e.nextElement();
 			System.out.println(obj);
 		}
 		
