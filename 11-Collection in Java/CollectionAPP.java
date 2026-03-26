@@ -13,11 +13,10 @@ public class CollectionAPP{
 		ls.add(50);
 		ls.add(60);
 		
-		Iterator i = ls.iterator();
+		Enumeration e = ls.elements();
 		
-		while(i.hasNext()){
-			Object obj = i.next();
-			
+		while(i.hasMoreNext()){
+			Object obj = i.nextElement();
 			System.out.println(obj);
 		}
 		
