@@ -4,7 +4,7 @@ import java.util.*;
 public class CollectionAPP{
 	public static void main(String x[]){
 		
-		List<Integer> ls = new ArrayList<>();
+		List<Integer> ls = new Vector<>();
 		
 		ls.add(10);
 		ls.add(20);
