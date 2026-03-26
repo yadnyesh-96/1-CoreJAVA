@@ -66,7 +66,7 @@ public class EmployeeAPP{
 		}
 		
 		System.out.println("After the Sorting :");
-		Collection.sort(ls);
+		Collections.sort(ls);
 		
 		while(i.hasNext()){
 			Employee e = (Employee)i.next();
