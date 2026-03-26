@@ -3,7 +3,7 @@ import java.util.*;
 public class CollectionSetAPP{
 	public static void main(String x[]){
 		
-		Set<Integer> s = new NavigableSet<>();
+		Set<Integer> s = new TreeSet<>();
 		
 		s.add(10);
 		s.add(20);
