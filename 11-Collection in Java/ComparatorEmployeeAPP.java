@@ -1,4 +1,5 @@
 
+
 import java.util.*;
 class Employee implements Comparable {
 	int id;
@@ -47,7 +48,7 @@ class Employee implements Comparable {
 }
 
 
-public class EmployeeAPP{
+public class ComparatorEmployeeAPP{
 	public static void main(String x[]){
 		
 		List ls =new ArrayList();
