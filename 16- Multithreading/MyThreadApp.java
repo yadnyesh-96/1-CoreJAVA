@@ -9,7 +9,7 @@ class MyThread extends Thread{
 				}
 				Thread.sleep(1000);
 			}
-		}catch(InterruptedException ex){
+		}catch(Exception ex){
 			System.out.println("Erros is :"+ex);
 		}
 	}

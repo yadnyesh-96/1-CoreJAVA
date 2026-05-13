@@ -42,9 +42,9 @@ public class sortById implements Comparator{
 		Employee e1=(Employee)obj1;
 		Employee e2=(Employee)obj2;
 		
-		if(e1>e2){
+		if(e1.getId()>e2.getId()){
 			return 1;
-		}else if(e1<e2){
+		}else if(e1.getId()<e2.getId()){
 			return -1;
 		}else{
 			return 0;
@@ -58,9 +58,9 @@ public class sortBySal implements Comparator{
 		Employee e1 = (Employee) obj1;
 		Employee e2 = (Employee) obj2;
 		
-		if(e1>e2){
+		if(e1.getSal()>e2.getSal()){
 			return 1;
-		}else if(e1<e2){
+		}else if(e1.getSal()<e2.getSal()){
 			return -1;
 		}else{
 			return 0;
@@ -88,7 +88,7 @@ public class ComparatorEmployeeAPP{
 		
 		System.out.println("After the Sorting :");
 		Comparator c = new sortById();
-		Collections(ls,c);
+		Collections.sort(ls,c);
 		
 		Iterator r = ls.listIterator();
 		while(r.hasNext()){
