@@ -1,23 +1,29 @@
 
 
-import java.uitl.*;
+import java.util.*;
 
-Public class ArrayListAPP{
+public class ArrayListAPP{
 	
 	public static void main(String x[]){
 		
-			List ls = new ArrayList();
+			List<Integer> v = new Vector<>();
 			
-			ls.add(20);
-			ls.add(30);
-			ls.add(50);
-			ls.add(80);
+			v.add(20);
+			v.add(30);
+			v.add(50);
+			v.add(80);
 			
-			Iterator i = ls.iterator();
-			while(i.hasNext(){
-				
-				Object obj = i.next();
-				System.out.println(obj);
+			Iterator<Integer> i = v.iterator();
+			
+			int sum = 0;
+			
+			while(i.hasNext()){
+				int num = i.next();
+				sum = sum + num;
+				System.out.println("\t"+num);
 			}
+			
+			System.out.println("===================");
+			System.out.println("SUM Is:"+sum);
 	}
 }
