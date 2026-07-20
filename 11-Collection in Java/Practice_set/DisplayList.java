@@ -36,5 +36,18 @@ public class DisplayList{
 		System.out.println("Second Max is:"+second_max);
 		
 		
+		System.out.println("Display List in Forward:");
+		ListIterator<Integer> i = ls.listIterator();
+		while(i.hasNext()){
+			int num = i.next();
+			System.out.println(num);
+		}
+		
+		System.out.println("Display List in Backward:");
+		while(i.hasPrevious()){
+			int num = i.previous();
+			System.out.println(num);
+		}
+		
 	}
 }
